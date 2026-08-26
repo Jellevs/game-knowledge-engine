@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     qdrant_url: str | None = None
     qdrant_api_key: str | None = None
 
-    collection_name: str = "arch_glacor"
+    collection_name: str = "arch_glacor_bands"
 
     # Models
     embedding_model: str = "all-MiniLM-L6-v2"
