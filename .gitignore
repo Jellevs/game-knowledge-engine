@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# uv
+.uv/
+
+# Derived artifacts
+data/processed/
+
+# Vector store / data artifacts (track with DVC, not git)
+qdrant_db/
+data/qdrant_db/
+*.pkl
+*.sqlite
+*.sqlite3
+
+# ML tracking
+mlruns/
+mlflow.db
+mlartifacts/
+.mlflow/
+
+# Model / HF caches
+.cache/
+models/
+*.gguf
+*.safetensors
+
+# Tooling
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
