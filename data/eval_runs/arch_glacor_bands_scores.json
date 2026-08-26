@@ -1,0 +1,668 @@
+{
+  "metrics": {
+    "faithfulness": 0.9192708333333333,
+    "relevancy": 0.8640624999999993,
+    "refusal_rate": 1.0,
+    "false_refusal_rate": 0.08571428571428572,
+    "empty_answer_rate": 0.0,
+    "judge_parse_failure_rate": 0.0
+  },
+  "per_question": [
+    {
+      "id": "intro-familiar-low-enrage",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "intro-slayer-task",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "intro-enrage-range",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "presets-kwuarm-stacks",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "presets-sigil",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 1.0
+    },
+    {
+      "id": "presets-powder-of-penance",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "rotation-opening-sequence",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.8333333333333334,
+      "relevancy": 0.6
+    },
+    {
+      "id": "rotation-first-attack",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "rotation-upkeep",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "rotation-splitsoul-3500",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "rotation-living-death-timing",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "rotation-living-death-arms",
+      "answerable": true,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "rotation-before-pillars",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "rotation-stacks-for-core",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "gear-tfn-conditions",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.5,
+      "relevancy": 0.4
+    },
+    {
+      "id": "gear-tank-conditions",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "gear-flurry-autos",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.8
+    },
+    {
+      "id": "arms-rotation-high-enrage",
+      "answerable": true,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "arms-rotation-low-enrage",
+      "answerable": true,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "arms-tank-swap-timing",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "arms-barricade-adren",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.5,
+      "relevancy": 0.8
+    },
+    {
+      "id": "arms-low-soul-stacks",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "arms-flank-position",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.8
+    },
+    {
+      "id": "minions-rotation-low-enrage",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "minions-rotation-high-enrage",
+      "answerable": true,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "minions-target",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "minions-vuln-bomb",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "minions-souls-for-volley",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "minions-freezing-blood",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "minions-scythe-order",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "defensive-frost-cannon",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.8
+    },
+    {
+      "id": "defensive-frost-cannon-gear",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "defensive-flurry",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.6666666666666666,
+      "relevancy": 0.9
+    },
+    {
+      "id": "defensive-divert-damage",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "defensive-pillars",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "defensive-skeleton-los",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.8
+    },
+    {
+      "id": "video-4000",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.5,
+      "relevancy": 0.9
+    },
+    {
+      "id": "video-gm-timer",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "unanswerable-5000-enrage",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-other-boss",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "mm-magic-phase-checklist",
+      "answerable": true,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "mm-minions-magma",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.8
+    },
+    {
+      "id": "mm-caroming-gchain",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mm-minions-swap-early",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mm-familiar-low-enrage",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mm-nodon-harness",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 1.0
+    },
+    {
+      "id": "mm-melee-clear-finish",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mm-video",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mr-ranged-phase-checklist",
+      "answerable": true,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "mr-piercing-shot-start",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mr-grico-berserk",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mr-imbue-runs-out",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mr-familiar-low-enrage",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mr-melee-clear-finish",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "mr-video",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-enrage-range",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-keep-rotation-rolling",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-arms-buffs-ending",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-opener-improvise",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-first-mech-debuffs",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.8
+    },
+    {
+      "id": "hy-cannon-opener",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-ezk-melee",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-bloodlust-stacks",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 1.0
+    },
+    {
+      "id": "hy-tumekens-reflect",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-adaptive-strike-stall",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.6666666666666666,
+      "relevancy": 0.6
+    },
+    {
+      "id": "hy-frost-cannon-defensives",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-arms-devotion",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-pillars-defensives",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.8
+    },
+    {
+      "id": "hy-flurry-reflect",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.6
+    },
+    {
+      "id": "hy-dba-wars",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.6666666666666666,
+      "relevancy": 0.6
+    },
+    {
+      "id": "hy-magic-cape",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 0.5,
+      "relevancy": 0.9
+    },
+    {
+      "id": "hy-prism-restoration",
+      "answerable": true,
+      "empty": false,
+      "refused": false,
+      "faithfulness": 1.0,
+      "relevancy": 0.8
+    },
+    {
+      "id": "unanswerable-drop-rates",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-unlock",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-normal-mode",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-duo",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-preset-cost",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-achievements",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-enrage-mechanic",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-pure-ranged",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-6000-enrage",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    },
+    {
+      "id": "unanswerable-slayer-master",
+      "answerable": false,
+      "empty": false,
+      "refused": true,
+      "faithfulness": null,
+      "relevancy": null
+    }
+  ]
+}

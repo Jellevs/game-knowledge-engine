@@ -1,0 +1,70 @@
+{
+  "arch_glacor_raw": {
+    "built_at": "2026-08-13T13:06:25+00:00",
+    "chunk_count": 100,
+    "guides": [
+      "arch_glacor_high_enrage_melee_magic.txt",
+      "arch_glacor_high_enrage_melee_ranged.txt",
+      "arch_glacor_high_enrage_necromancy.txt"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "chunk_size": 500,
+    "chunk_overlap": 50,
+    "preprocess_guide": false,
+    "emoji_mode": "both",
+    "enrage_bands": false,
+    "hybrid": false,
+    "content_payload_key": "text"
+  },
+  "arch_glacor_both": {
+    "built_at": "2026-08-13T13:21:07+00:00",
+    "chunk_count": 65,
+    "guides": [
+      "arch_glacor_high_enrage_melee_magic.txt",
+      "arch_glacor_high_enrage_melee_ranged.txt",
+      "arch_glacor_high_enrage_necromancy.txt"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "chunk_size": 500,
+    "chunk_overlap": 50,
+    "preprocess_guide": true,
+    "emoji_mode": "both",
+    "enrage_bands": false,
+    "hybrid": false,
+    "content_payload_key": "text"
+  },
+  "arch_glacor_hybrid": {
+    "built_at": "2026-08-13T13:21:50+00:00",
+    "chunk_count": 65,
+    "guides": [
+      "arch_glacor_high_enrage_melee_magic.txt",
+      "arch_glacor_high_enrage_melee_ranged.txt",
+      "arch_glacor_high_enrage_necromancy.txt"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "chunk_size": 500,
+    "chunk_overlap": 50,
+    "preprocess_guide": true,
+    "emoji_mode": "both",
+    "enrage_bands": false,
+    "hybrid": true,
+    "content_payload_key": "text"
+  },
+  "arch_glacor_bands": {
+    "built_at": "2026-08-13T14:23:34+00:00",
+    "chunk_count": 67,
+    "guides": [
+      "arch_glacor_high_enrage_melee_magic.txt",
+      "arch_glacor_high_enrage_melee_ranged.txt",
+      "arch_glacor_high_enrage_necromancy.txt"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "chunk_size": 500,
+    "chunk_overlap": 50,
+    "preprocess_guide": true,
+    "emoji_mode": "both",
+    "enrage_bands": true,
+    "hybrid": true,
+    "content_payload_key": "text"
+  }
+}

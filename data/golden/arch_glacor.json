@@ -1,0 +1,992 @@
+{
+  "source": "data/*.txt (3 guides)",
+  "notes": "Relevance requires ALL of: chunk source in expected_source (null = any, list = any of them), chunk's deepest header matches expected_section, and expected_phrase appears in the chunk text. Phrases are verified present in the raw guide AND all three emoji modes, so corpus A/Bs stay fair. The two hybrid guides share whole sections verbatim (Opener, Melee Phase, Defensive Usage), so those questions list both as acceptable sources. expected_section null means no guide can answer it and the model must refuse.",
+  "questions": [
+    {
+      "id": "intro-familiar-low-enrage",
+      "question": "Which familiar should I use below 2500% enrage with Necromancy?",
+      "expected_answer": "Below 2500% enrage, swap to the Ripper Demon familiar.",
+      "expected_section": "Introduction",
+      "tags": [
+        "lookup",
+        "enrage-conditional"
+      ],
+      "expected_phrase": "below 2500%",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "intro-slayer-task",
+      "question": "Can I kill Arch-Glacor on a Slayer task?",
+      "expected_answer": "No. Arch-Glacor is not affected by Slayer tasks in hard mode.",
+      "expected_section": "Introduction",
+      "tags": [
+        "negative-fact",
+        "style-independent"
+      ],
+      "expected_phrase": "affected by Slayer tasks",
+      "expected_source": null
+    },
+    {
+      "id": "intro-enrage-range",
+      "question": "What enrage range is the Necromancy guide aimed at?",
+      "expected_answer": "The guide targets 2500%-4000% enrage, though the information applies at lower enrage too.",
+      "expected_section": "Introduction",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "2500%-4000%",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "presets-kwuarm-stacks",
+      "question": "How many stacks of Kwuarm incense should I have with Necromancy?",
+      "expected_answer": "Kwuarm incense should be at 4 stacks.",
+      "expected_section": "Presets",
+      "tags": [
+        "numeric",
+        "from-embed"
+      ],
+      "expected_phrase": "Kwuarm incense at 4 stacks",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "presets-sigil",
+      "question": "Which sigil do I need unlocked for this preset with Necromancy?",
+      "expected_answer": "The Limitless Sigil should be unlocked.",
+      "expected_section": "Presets",
+      "tags": [
+        "lookup",
+        "from-embed"
+      ],
+      "expected_phrase": "Limitless Sigil unlocked",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "presets-powder-of-penance",
+      "question": "What does Powder of Penance replace in the preset with Necromancy?",
+      "expected_answer": "Powder of Penance is optional and replaces the blessed flask, at increased cost.",
+      "expected_section": "Presets",
+      "tags": [
+        "lookup",
+        "from-embed"
+      ],
+      "expected_phrase": "replaces blessed flask",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "rotation-opening-sequence",
+      "question": "What is the full opening sequence for Arch-Glacor with Necromancy?",
+      "expected_answer": "Darkness (cast outside) then Invoke Death, Conjure Undead Army, Life Transfer, Command Vengeful Ghost, Command Skeleton Warrior, and Bloat.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "sequence"
+      ],
+      "expected_phrase": "Starting the encounter",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "rotation-first-attack",
+      "question": "Which ability should I attack with first, and why with Necromancy?",
+      "expected_answer": "Bloat. It is a low adrenaline investment with no cooldown and high use priority, and there is a 2/5 chance the first mechanic (minions or exposed core) nullifies your opening attacks.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "why"
+      ],
+      "expected_phrase": "low adren investment",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "rotation-upkeep",
+      "question": "Which abilities should I keep upkept throughout the fight with Necromancy?",
+      "expected_answer": "Aim to upkeep Bloat and Conjure Undead Army as much as possible.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "Aim to upkeep",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "rotation-splitsoul-3500",
+      "question": "What should I save Split Soul for at 3500% enrage and above with Necromancy?",
+      "expected_answer": "At 3500%+ enrage, always reserve Split Soul for the exposed core.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "enrage-conditional"
+      ],
+      "expected_phrase": "3500%+ enrage",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "rotation-living-death-timing",
+      "question": "When is the best time to use Living Death with Necromancy?",
+      "expected_answer": "During the flurry mechanic, which gives a long uninterrupted damage window. It can situationally be used to reset Death Skulls in anticipation of an upcoming exposed core.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "long, uninterrupted window",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "rotation-living-death-arms",
+      "question": "Should I reserve Living Death for the arms phase with Necromancy?",
+      "expected_answer": "No. Living Death should not be strategically reserved for arms, because the time to clear the mechanic does not change much with or without the ultimate active.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "negative-fact"
+      ],
+      "expected_phrase": "strategically reserved",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "rotation-before-pillars",
+      "question": "Which abilities should I put on cooldown before the pillars of ice mechanic with Necromancy?",
+      "expected_answer": "Death Guard Essence of Finality special attack, Touch of Death, and Divert, because pillars blocks line of sight.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "blocks your line of sight",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "rotation-stacks-for-core",
+      "question": "How many Necrosis stacks and Residual Souls should I hold for the exposed core?",
+      "expected_answer": "Hold at least 4 Necrosis stacks and at least 2 Residual Souls for the exposed core.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "numeric"
+      ],
+      "expected_phrase": "held for the Exposed Core",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "gear-tfn-conditions",
+      "question": "When should I wear TFN gear with Necromancy?",
+      "expected_answer": "When the exposed core is active, when pillars of ice is active, when Disruption Shield, Devotion or Barricade is active, before casting Conjure Undead Army, and when Arch-Glacor is not casting autos and you are at or below your max HP in DPS gear (~11,100).",
+      "expected_section": "General Rotations",
+      "tags": [
+        "conditional"
+      ],
+      "expected_phrase": "TFN gear should be worn",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "gear-tank-conditions",
+      "question": "When should I wear tank gear with Necromancy?",
+      "expected_answer": "Tank gear should always be worn whenever you are taking damage, outside of the situations that call for TFN.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "conditional"
+      ],
+      "expected_phrase": "should always be worn",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "gear-flurry-autos",
+      "question": "Which auto attacks do the most damage during flurry, and why with Necromancy?",
+      "expected_answer": "Ranged autos, because the 3-piece Cryptbloom buff does not reduce ranged damage.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "why"
+      ],
+      "expected_phrase": "reduce ranged damage",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "arms-rotation-high-enrage",
+      "question": "What is the arms rotation at 3000% enrage with Necromancy?",
+      "expected_answer": "Invoke Death, Split Soul, threshold cycle Vulnerability bomb with Bloat, Death Skulls, Command Skeleton Warrior, Soul Strike until 0 stacks, Death Guard EoF special, Command Putrid Zombie, Command Phantom Guardian, Devotion, Omni Guard special attack.",
+      "expected_section": "Exposed Core",
+      "tags": [
+        "sequence",
+        "enrage-conditional"
+      ],
+      "expected_phrase": "2500%+",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "arms-rotation-low-enrage",
+      "question": "What is the arms rotation below 2500% enrage with Necromancy?",
+      "expected_answer": "Invoke Death, then Soul Strike, then Soul Strike.",
+      "expected_section": "Exposed Core",
+      "tags": [
+        "sequence",
+        "enrage-conditional"
+      ],
+      "expected_phrase": "0-2500%",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "arms-tank-swap-timing",
+      "question": "When can I swap to tank gear during the exposed core with Necromancy?",
+      "expected_answer": "Around 15 seconds into the exposed core, to benefit from the 3-piece Cryptbloom magic damage reduction passive.",
+      "expected_section": "Exposed Core",
+      "tags": [
+        "numeric"
+      ],
+      "expected_phrase": "15s into exposed core",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "arms-barricade-adren",
+      "question": "How do I get to 100% adrenaline if I need to Barricade during arms with Necromancy?",
+      "expected_answer": "Use Divert and flick to Soul Split for one tick to reach 100% adrenaline.",
+      "expected_section": "Exposed Core",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "flick to",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "arms-low-soul-stacks",
+      "question": "What should I use during arms if I only have 1 or 2 Residual Soul stacks with Necromancy?",
+      "expected_answer": "Use Soul Strike instead of Volley of Souls when starting with low (1-2) Residual Soul stacks.",
+      "expected_section": "Exposed Core",
+      "tags": [
+        "conditional"
+      ],
+      "expected_phrase": "soul stacks (1-2)",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "arms-flank-position",
+      "question": "Where should I stand if I am flanking during arms with Necromancy?",
+      "expected_answer": "Stand central or on the south wall next to the boss.",
+      "expected_section": "Exposed Core",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "south wall",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "minions-rotation-low-enrage",
+      "question": "What is the glacyte minion rotation below 2500% enrage with Necromancy?",
+      "expected_answer": "Invoke Death, Threads of Fate, Soul Sap, Volley of Souls.",
+      "expected_section": "Clearing Glacyte Minions",
+      "tags": [
+        "sequence",
+        "enrage-conditional"
+      ],
+      "expected_phrase": "0-2500%",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "minions-rotation-high-enrage",
+      "question": "What is the glacyte minion rotation at 3000% enrage with Necromancy?",
+      "expected_answer": "Soul Sap, Spectral Scythe, Invoke Death, Threads of Fate, Volley of Souls, Soul Sap, Volley of Souls, Spectral Scythe 2nd hit, Spectral Scythe 3rd hit, Soul Sap, then Spectral Scythe or Volley of Souls.",
+      "expected_section": "Clearing Glacyte Minions",
+      "tags": [
+        "sequence",
+        "enrage-conditional"
+      ],
+      "expected_phrase": "2500%+",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "minions-target",
+      "question": "Which glacyte should I target when clearing minions with Necromancy?",
+      "expected_answer": "Always target the bolstering glacyte, which causes perks and the Jas book to activate on it.",
+      "expected_section": "Clearing Glacyte Minions",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "bolstering glacyte",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "minions-vuln-bomb",
+      "question": "Where should I throw the Vulnerability bomb during minions with Necromancy?",
+      "expected_answer": "On the magic minion closest to the bolstering glacyte, which applies vulnerability to all five glacytes.",
+      "expected_section": "Clearing Glacyte Minions",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "closest to the bolstering",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "minions-souls-for-volley",
+      "question": "How many Residual Soul stacks do I need before casting Volley of Souls with Necromancy?",
+      "expected_answer": "5 Residual Soul stacks.",
+      "expected_section": "Clearing Glacyte Minions",
+      "tags": [
+        "numeric"
+      ],
+      "expected_phrase": "once at 5",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "minions-freezing-blood",
+      "question": "What happens at 10 stacks of freezing blood with Necromancy?",
+      "expected_answer": "10 stacks of freezing blood applies a 3 second bind and stun.",
+      "expected_section": "Clearing Glacyte Minions",
+      "tags": [
+        "numeric"
+      ],
+      "expected_phrase": "10 stacks of freezing blood",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "minions-scythe-order",
+      "question": "Should I cast Spectral Scythe before or after Invoke Death when clearing minions with Necromancy?",
+      "expected_answer": "Before. Casting Spectral Scythe first starts its 15 second cooldown, so it is available again before the third Volley of Souls.",
+      "expected_section": "Clearing Glacyte Minions",
+      "tags": [
+        "ordering",
+        "why"
+      ],
+      "expected_phrase": "15s cooldown",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "defensive-frost-cannon",
+      "question": "What defensives should I use for the frost cannon with Necromancy?",
+      "expected_answer": "Anticipation, then Vengeance with Soul Split and Reflect, then Reprisal with Powerburst of Vitality, in tank gear at max HP.",
+      "expected_section": "Defensive",
+      "tags": [
+        "sequence"
+      ],
+      "expected_phrase": "Frost Cannon",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "defensive-frost-cannon-gear",
+      "question": "What gear should I wear for the frost cannon with Necromancy?",
+      "expected_answer": "Always wear tank gear for the frost cannon mechanic.",
+      "expected_section": "Defensive",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "Always wear tank gear",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "defensive-flurry",
+      "question": "What defensives should I use during flurry with Necromancy?",
+      "expected_answer": "Disruption Shield or Reflect, then Divert, then Debilitate if needed.",
+      "expected_section": "Defensive",
+      "tags": [
+        "sequence"
+      ],
+      "expected_phrase": "Flurry",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "defensive-divert-damage",
+      "question": "How much damage does Divert deal at 4000% enrage with Necromancy?",
+      "expected_answer": "Divert deals roughly 27k damage at 4000% enrage.",
+      "expected_section": "Defensive",
+      "tags": [
+        "numeric"
+      ],
+      "expected_phrase": "27k",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "defensive-pillars",
+      "question": "What should I do during the pillars of ice mechanic with Necromancy?",
+      "expected_answer": "Life Transfer, Anticipation, Preparation, Command Skeleton Warrior.",
+      "expected_section": "Defensive",
+      "tags": [
+        "sequence"
+      ],
+      "expected_phrase": "Pillars of Ice",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "defensive-skeleton-los",
+      "question": "Can my skeleton deal damage if I have no line of sight with Necromancy?",
+      "expected_answer": "Yes. Command Skeleton Warrior can deal damage even without line of sight, depending on the skeleton's position.",
+      "expected_section": "Defensive",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "doesn't have LOS",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "video-4000",
+      "question": "Is there an example kill video at 4000% enrage with Necromancy?",
+      "expected_answer": "Yes, a 10:57 kill at 4000%: https://youtu.be/ETA6vtiuOvA?si=ZYkp-da10MvEuS0d",
+      "expected_section": "Example Kills",
+      "tags": [
+        "link",
+        "from-embed"
+      ],
+      "expected_phrase": "ETA6vtiuOvA",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "video-gm-timer",
+      "question": "Do you have a video of a GM timer kill with Necromancy?",
+      "expected_answer": "Yes, a 3000% GM timer kill in 5:25: https://youtu.be/B-5v0Qb4XUE?si=I57326aSERYg8Cub",
+      "expected_section": "Example Kills",
+      "tags": [
+        "link",
+        "from-embed"
+      ],
+      "expected_phrase": "B-5v0Qb4XUE",
+      "expected_source": "arch_glacor_high_enrage_necromancy.txt"
+    },
+    {
+      "id": "unanswerable-5000-enrage",
+      "question": "What is the arms rotation at 5000% enrage?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-other-boss",
+      "question": "How do I kill Zuk with Necromancy?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "mm-magic-phase-checklist",
+      "question": "What is the magic phase rotation for the Melee/Magic hybrid?",
+      "expected_answer": "The following rotations are laid out as a general checklist that could deviate based on the order of mechanics.",
+      "expected_section": "Magic Phase",
+      "tags": [
+        "sequence"
+      ],
+      "expected_phrase": "The following rotations are laid out",
+      "expected_source": "arch_glacor_high_enrage_melee_magic.txt"
+    },
+    {
+      "id": "mm-minions-magma",
+      "question": "Where do I place Magma Tempest when clearing glacyte minions as Melee/Magic?",
+      "expected_answer": "In the middle of the minions.",
+      "expected_section": "Magic Phase",
+      "tags": [
+        "lookup"
+      ],
+      "expected_phrase": "middle of minions",
+      "expected_source": "arch_glacor_high_enrage_melee_magic.txt"
+    },
+    {
+      "id": "mm-caroming-gchain",
+      "question": "Do I need Caroming 4 on my chain when clearing minions as Melee/Magic?",
+      "expected_answer": "Yes, make sure to Caroming 4 the Greater Chain.",
+      "expected_section": "Magic Phase",
+      "tags": [
+        "lookup",
+        "jargon"
+      ],
+      "expected_phrase": "Make sure to",
+      "expected_source": "arch_glacor_high_enrage_melee_magic.txt"
+    },
+    {
+      "id": "mm-minions-swap-early",
+      "question": "What should I do if Greater Sunshine is about to end during glacyte minions?",
+      "expected_answer": "Swap to melee early and use Meteor Strike plus Berserk to do the melee clear instead.",
+      "expected_section": "Magic Phase",
+      "tags": [
+        "conditional"
+      ],
+      "expected_phrase": "If close to end of",
+      "expected_source": "arch_glacor_high_enrage_melee_magic.txt"
+    },
+    {
+      "id": "mm-familiar-low-enrage",
+      "question": "Which familiar can I use below 3500% enrage on the Melee/Magic hybrid?",
+      "expected_answer": "Kal'gerion Demon may be used below 3500% enrage, though Hellhound is recommended.",
+      "expected_section": "Preset Notes",
+      "tags": [
+        "enrage-conditional"
+      ],
+      "expected_phrase": "may be used at lower (<3500%) enrages",
+      "expected_source": "arch_glacor_high_enrage_melee_magic.txt"
+    },
+    {
+      "id": "mm-nodon-harness",
+      "question": "Should I wear the Nodon spike harness on Melee/Magic?",
+      "expected_answer": "It is optional for extra melee damage, otherwise wear Zemouregal's Nexus.",
+      "expected_section": "Preset Notes",
+      "tags": [
+        "conditional"
+      ],
+      "expected_phrase": "for extra melee damage, otherwise wear",
+      "expected_source": "arch_glacor_high_enrage_melee_magic.txt"
+    },
+    {
+      "id": "mm-melee-clear-finish",
+      "question": "After Berserk ends during a minion clear on Melee/Magic, what do I finish with?",
+      "expected_answer": "Swap to magic and finish with Tsunami, Greater Chain, or Runic Charge plus Dragon Breath.",
+      "expected_section": "Melee Phase",
+      "tags": [
+        "sequence"
+      ],
+      "expected_phrase": "swap to magic to finish the clear with",
+      "expected_source": "arch_glacor_high_enrage_melee_magic.txt"
+    },
+    {
+      "id": "mm-video",
+      "question": "Is there an example kill video for the Melee/Magic hybrid?",
+      "expected_answer": "Yes: https://www.youtube.com/watch?v=DPvi27nJZxI",
+      "expected_section": "Example Kills",
+      "tags": [
+        "link"
+      ],
+      "expected_phrase": "DPvi27nJZxI",
+      "expected_source": "arch_glacor_high_enrage_melee_magic.txt"
+    },
+    {
+      "id": "mr-ranged-phase-checklist",
+      "question": "What is the ranged phase rotation for the Melee/Ranged hybrid?",
+      "expected_answer": "The following rotations are laid out as a general checklist that could deviate based on the order of mechanics.",
+      "expected_section": "Ranged Phase",
+      "tags": [
+        "sequence"
+      ],
+      "expected_phrase": "The following rotations are laid out",
+      "expected_source": "arch_glacor_high_enrage_melee_ranged.txt"
+    },
+    {
+      "id": "mr-piercing-shot-start",
+      "question": "What do I start the ranged phase with if Greater Ricochet was not used during Berserk?",
+      "expected_answer": "Start with Piercing Shot, then Greater Ricochet, then Piercing Shot.",
+      "expected_section": "Ranged Phase",
+      "tags": [
+        "conditional"
+      ],
+      "expected_phrase": "Start with",
+      "expected_source": "arch_glacor_high_enrage_melee_ranged.txt"
+    },
+    {
+      "id": "mr-grico-berserk",
+      "question": "How often should I use Death Spore Arrows with grico?",
+      "expected_answer": "Once during each Berserk, for a faster setup on the next Greater Death's Swiftness.",
+      "expected_section": "Fight Checklist",
+      "tags": [
+        "jargon",
+        "numeric"
+      ],
+      "expected_phrase": "once during each",
+      "expected_source": "arch_glacor_high_enrage_melee_ranged.txt"
+    },
+    {
+      "id": "mr-imbue-runs-out",
+      "question": "What should I do if Imbue Shadows runs out during glacyte minions on Melee/Ranged?",
+      "expected_answer": "Swap to melee early and use Meteor Strike plus Berserk to do the melee clear instead.",
+      "expected_section": "Ranged Phase",
+      "tags": [
+        "conditional"
+      ],
+      "expected_phrase": "runs out, swap to melee early",
+      "expected_source": "arch_glacor_high_enrage_melee_ranged.txt"
+    },
+    {
+      "id": "mr-familiar-low-enrage",
+      "question": "Which familiar can I use below 3500% enrage on the Melee/Ranged hybrid?",
+      "expected_answer": "Ripper Demon may be used below 3500% enrage, though Hellhound is recommended.",
+      "expected_section": "Preset Notes",
+      "tags": [
+        "enrage-conditional"
+      ],
+      "expected_phrase": "may be used at lower (<3500%) enrages",
+      "expected_source": "arch_glacor_high_enrage_melee_ranged.txt"
+    },
+    {
+      "id": "mr-melee-clear-finish",
+      "question": "After Berserk ends during a minion clear on Melee/Ranged, what do I finish with?",
+      "expected_answer": "Swap to ranged and finish with Death Spore Arrows, Greater Ricochet, Greater Death's Swiftness, Imbue Shadows, then Decimation EoF special.",
+      "expected_section": "Melee Phase",
+      "tags": [
+        "sequence"
+      ],
+      "expected_phrase": "swap to ranged to finish the clear with",
+      "expected_source": "arch_glacor_high_enrage_melee_ranged.txt"
+    },
+    {
+      "id": "mr-video",
+      "question": "Is there an example kill video for the Melee/Ranged hybrid?",
+      "expected_answer": "Yes: https://youtu.be/pRDGPkOARhc",
+      "expected_section": "Example Kills",
+      "tags": [
+        "link"
+      ],
+      "expected_phrase": "pRDGPkOARhc",
+      "expected_source": "arch_glacor_high_enrage_melee_ranged.txt"
+    },
+    {
+      "id": "hy-enrage-range",
+      "question": "What enrage does the hybrid Arch-Glacor guide target?",
+      "expected_answer": "3000-4000% enrage.",
+      "expected_section": "Introduction",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "expected_phrase": "3000-4000%",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-keep-rotation-rolling",
+      "question": "Should I stop my hybrid rotation when a mechanic starts?",
+      "expected_answer": "No. Keep the hybrid rotation rolling even mid-mechanic, swapping styles as needed.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "negative-fact",
+        "shared-text"
+      ],
+      "expected_phrase": "keep your hybrid rotation rolling",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-arms-buffs-ending",
+      "question": "What should I do if my buffs are about to run out as the Exposed Core begins?",
+      "expected_answer": "Swap styles early so you are not still building as the mechanic begins.",
+      "expected_section": "General Rotations",
+      "tags": [
+        "conditional",
+        "shared-text"
+      ],
+      "expected_phrase": "just swap styles early",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-opener-improvise",
+      "question": "What do I improvise with at the end of the hybrid opener?",
+      "expected_answer": "Assault, Varanus's Mercy EoF special, Overpower, or Cleave.",
+      "expected_section": "Opener",
+      "tags": [
+        "sequence",
+        "shared-text"
+      ],
+      "expected_phrase": "improvise with",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-first-mech-debuffs",
+      "question": "What should I do before starting a mechanic rotation as a hybrid?",
+      "expected_answer": "Finish applying the necessary debuffs first.",
+      "expected_section": "Opener",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "expected_phrase": "finish applying necessary debuffs first",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-cannon-opener",
+      "question": "What do I need for the frost cannon during the first mechanic as a hybrid?",
+      "expected_answer": "Pulverise and Enfeeble applied, plus Anticipation and Powerburst of Vitality.",
+      "expected_section": "Opener",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "expected_phrase": "Cannon: make sure",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-ezk-melee",
+      "question": "Why should I keep ezk equipped while meleeing?",
+      "expected_answer": "For the Flamebound Rival damage reduction.",
+      "expected_section": "Fight Checklist",
+      "tags": [
+        "why",
+        "jargon",
+        "shared-text"
+      ],
+      "expected_phrase": "Flamebound Rival damage reduction",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-bloodlust-stacks",
+      "question": "How many Bloodlust stacks do I need for a full cooldown reset on cane?",
+      "expected_answer": "4 stacks.",
+      "expected_section": "Melee Phase",
+      "tags": [
+        "numeric",
+        "jargon",
+        "shared-text"
+      ],
+      "expected_phrase": "need 4 for full cooldown reset",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-tumekens-reflect",
+      "question": "Why is Reflect or Debilitate used while Tumeken's Light is equipped?",
+      "expected_answer": "Because the Flamebound Rival damage reduction is lost while Tumeken's Light is equipped.",
+      "expected_section": "Melee Phase",
+      "tags": [
+        "why",
+        "shared-text"
+      ],
+      "expected_phrase": "is used because the",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-adaptive-strike-stall",
+      "question": "Why do I stall with Adaptive Strike in the melee phase?",
+      "expected_answer": "Only for adrenaline - do not attack with it.",
+      "expected_section": "Melee Phase",
+      "tags": [
+        "why",
+        "shared-text"
+      ],
+      "expected_phrase": "only for adren, don't attack",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-frost-cannon-defensives",
+      "question": "What defensives should I use for the frost cannon as a hybrid?",
+      "expected_answer": "Anticipation, then Deflect Magic with Powerburst of Vitality, Debilitate or Reflect - only one is needed.",
+      "expected_section": "Defensive Usage",
+      "tags": [
+        "sequence",
+        "shared-text"
+      ],
+      "expected_phrase": "(only one is needed)",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-arms-devotion",
+      "question": "Do I need Devotion for the Exposed Core as a hybrid?",
+      "expected_answer": "Only if it goes too long; it is rarely needed.",
+      "expected_section": "Defensive Usage",
+      "tags": [
+        "negative-fact",
+        "shared-text"
+      ],
+      "expected_phrase": "if it goes too long, rarely needed",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-pillars-defensives",
+      "question": "What should I use during Pillars of Ice as a hybrid?",
+      "expected_answer": "Preparation or Freedom, for adrenaline.",
+      "expected_section": "Defensive Usage",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "expected_phrase": "for adrenaline",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-flurry-reflect",
+      "question": "Is Reflect worth using during flurry at high enrage as a hybrid?",
+      "expected_answer": "Yes, Reflect does decent damage at higher enrage.",
+      "expected_section": "Defensive Usage",
+      "tags": [
+        "why",
+        "shared-text"
+      ],
+      "expected_phrase": "does decent damage at higher enrage",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-dba-wars",
+      "question": "When should I use the dba special attack as a hybrid?",
+      "expected_answer": "Optionally at Wars.",
+      "expected_section": "Preset Notes",
+      "tags": [
+        "jargon",
+        "shared-text"
+      ],
+      "expected_phrase": "usage at Wars",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-magic-cape",
+      "question": "Why is the Master Magic Cape stored as a hybrid?",
+      "expected_answer": "For longer debuff duration.",
+      "expected_section": "Preset Notes",
+      "tags": [
+        "why",
+        "shared-text"
+      ],
+      "expected_phrase": "stored for longer debuff duration",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "hy-prism-restoration",
+      "question": "How do I sustain the Hellhound familiar?",
+      "expected_answer": "Regularly use Prism of Restoration.",
+      "expected_section": "Fight Checklist",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "expected_phrase": "Regularly use",
+      "expected_source": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ]
+    },
+    {
+      "id": "unanswerable-drop-rates",
+      "question": "What are the drop rates at Arch-Glacor?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-unlock",
+      "question": "How do I unlock Arch-Glacor?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-normal-mode",
+      "question": "What is the strategy for normal mode Arch-Glacor?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-duo",
+      "question": "How do I duo Arch-Glacor?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-preset-cost",
+      "question": "How much does the Melee/Magic preset cost?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-achievements",
+      "question": "What are the Arch-Glacor combat achievements?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-enrage-mechanic",
+      "question": "How does the enrage mechanic work, and how do I raise or reset it?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-pure-ranged",
+      "question": "What is the best pure Ranged setup for Arch-Glacor?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-6000-enrage",
+      "question": "What should I do at 6000% enrage?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    },
+    {
+      "id": "unanswerable-slayer-master",
+      "question": "Which Slayer master assigns Arch-Glacor?",
+      "expected_answer": "I don't have enough information to answer that.",
+      "expected_section": null,
+      "tags": [
+        "unanswerable"
+      ],
+      "expected_phrase": null,
+      "expected_source": null
+    }
+  ]
+}

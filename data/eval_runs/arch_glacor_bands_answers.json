@@ -1,0 +1,1762 @@
+{
+  "collection": "arch_glacor_bands",
+  "llm_model": "qwen3.5:9b",
+  "top_k": 3,
+  "records": [
+    {
+      "id": "intro-familiar-low-enrage",
+      "question": "Which familiar should I use below 2500% enrage with Necromancy?",
+      "answer": "You should swap to the **Ripper Demon** pouch (familiar) below 2500% enrage.",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "### Preset Notes  \n- Powder of Penance or bring a form of prayer restore + Powder of Protection if using Am-hej (amhej)\n- Hellhound familiar Hellhound pouch recommended, but Ripper Demon Ripper Demon pouch may be used at lower (<3500%) enrages [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500 enrageband3000]\n- Apply Darkness + Disruption Shield (disrupt) at Wars\n- Master Magic Cape stored for longer debuff duration",
+        "## __Presets and Relics__\n- [Necromancy preset](https://presets.pvme.io/?id=ecA3h6GIy9XZPdeXBjwt) Necromancy  \n**Buffs & checklist**\n- Powder of Penance - Optional, replaces blessed flask at increased cost\n- weapon poison Weapon poison active\n- Darkness active\n- Limitless Sigil unlocked\n- Bonfire + thermal spa HP boosts thermal spa flask are active\n- Kwuarm incense sticks Kwuarm incense at 4 stacks"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Below 2500% enrage, swap to the Ripper Demon familiar.",
+      "tags": [
+        "lookup",
+        "enrage-conditional"
+      ],
+      "answerable": true,
+      "seconds": 37.65
+    },
+    {
+      "id": "intro-slayer-task",
+      "question": "Can I kill Arch-Glacor on a Slayer task?",
+      "answer": "No, the Arch-Glacor is not affected by Slayer tasks in hard mode.",
+      "contexts": [
+        "This guide assumes strong underlying knowledge of all information presented in .  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.  \nA large portion of the preset below is built on sustaining high enrage kill streaks. Read the notes in the preset link if you wish to substitute some supplies for more food.",
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "No. Arch-Glacor is not affected by Slayer tasks in hard mode.",
+      "tags": [
+        "negative-fact",
+        "style-independent"
+      ],
+      "answerable": true,
+      "seconds": 2.45
+    },
+    {
+      "id": "intro-enrage-range",
+      "question": "What enrage range is the Necromancy guide aimed at?",
+      "answer": "The Necromancy guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information in that guide is applicable to lower enrages. Additionally, for enrage levels below 2500%, the Ripper Demon pouch should be used instead of the Necromancy setup described.",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "Roar of Awakening + Ode to Deceit are optionally brought to 0t spec on arms at 3500%+ enrage. Offstyle soulfire speccing arms at high enrage greatly improves consistency, however isn't necessary. This guide isn't structured with their use in consideration. Use `!0tick` in  for more information on 0ticking offstyle special attacks with necromancy. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "The guide targets 2500%-4000% enrage, though the information applies at lower enrage too.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 2.78
+    },
+    {
+      "id": "presets-kwuarm-stacks",
+      "question": "How many stacks of Kwuarm incense should I have with Necromancy?",
+      "answer": "You should have 4 stacks of Kwuarm incense sticks active.",
+      "contexts": [
+        "## __Presets and Relics__\n- [Necromancy preset](https://presets.pvme.io/?id=ecA3h6GIy9XZPdeXBjwt) Necromancy  \n**Buffs & checklist**\n- Powder of Penance - Optional, replaces blessed flask at increased cost\n- weapon poison Weapon poison active\n- Darkness active\n- Limitless Sigil unlocked\n- Bonfire + thermal spa HP boosts thermal spa flask are active\n- Kwuarm incense sticks Kwuarm incense at 4 stacks",
+        "- If starting with low Residual Soul soul stacks (1-2), use Soul Strike (flanking) over Volley of Souls.\n- Use Soul Sap & Touch of Death where appropriate to build adren and stacks before dumping.\n- Bloat , Death Skulls , and Command Skeleton Warrior should always be used first, as their damage is dealt over time.\n- Offstyle soulfire Roar of Awakening + Ode to Deceit special attack may optionally be used after Command Skeleton Warrior .",
+        "- Ensure that some Necrosis Stacks Necrosis stack (4+) and Residual Souls Residual Soul (2+) are held for the Exposed Core.  \n- It is best to start the fight with Bloat , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attacks.\n- Both tank gear and TFN should be bound for swapping.  \n- **TFN gear should be worn in the following conditions**;"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Kwuarm incense should be at 4 stacks.",
+      "tags": [
+        "numeric",
+        "from-embed"
+      ],
+      "answerable": true,
+      "seconds": 2.33
+    },
+    {
+      "id": "presets-sigil",
+      "question": "Which sigil do I need unlocked for this preset with Necromancy?",
+      "answer": "You need the Limitless Sigil unlocked.",
+      "contexts": [
+        "## __Presets and Relics__\n- [Necromancy preset](https://presets.pvme.io/?id=ecA3h6GIy9XZPdeXBjwt) Necromancy  \n**Buffs & checklist**\n- Powder of Penance - Optional, replaces blessed flask at increased cost\n- weapon poison Weapon poison active\n- Darkness active\n- Limitless Sigil unlocked\n- Bonfire + thermal spa HP boosts thermal spa flask are active\n- Kwuarm incense sticks Kwuarm incense at 4 stacks",
+        "- Use Limitless Sigil / Adrenaline Renewal where required depending on adrenaline in order to use Devotion (devo) .\n- If you need to Barricade (cade) , use Divert and flick to Soul Split for 1 tick to get to 100% adrenaline.\n- ~15s into exposed core, you can swap to tank gear to benefit from 3pc cryptbloom's magic damage reduction% passive.  \n**__Example Arms rotation:__**\n- Closely follow the rotation below in priority of cooldowns and stacks available.",
+        "### Preset Notes  \n- Powder of Penance or bring a form of prayer restore + Powder of Protection if using Am-hej (amhej)\n- Hellhound familiar Hellhound pouch recommended, but Kal'gerion Demon Kal'gerion Demon pouch may be used at lower (<3500%) enrages [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500 enrageband3000]\n- Apply Darkness + Disruption Shield (disrupt) at Wars\n- Master Magic Cape stored for longer debuff duration"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "The Limitless Sigil should be unlocked.",
+      "tags": [
+        "lookup",
+        "from-embed"
+      ],
+      "answerable": true,
+      "seconds": 2.35
+    },
+    {
+      "id": "presets-powder-of-penance",
+      "question": "What does Powder of Penance replace in the preset with Necromancy?",
+      "answer": "Powder of Penance replaces a blessed flask.",
+      "contexts": [
+        "## __Presets and Relics__\n- [Necromancy preset](https://presets.pvme.io/?id=ecA3h6GIy9XZPdeXBjwt) Necromancy  \n**Buffs & checklist**\n- Powder of Penance - Optional, replaces blessed flask at increased cost\n- weapon poison Weapon poison active\n- Darkness active\n- Limitless Sigil unlocked\n- Bonfire + thermal spa HP boosts thermal spa flask are active\n- Kwuarm incense sticks Kwuarm incense at 4 stacks",
+        "### Preset Notes  \n- Powder of Penance or bring a form of prayer restore + Powder of Protection if using Am-hej (amhej)\n- Hellhound familiar Hellhound pouch recommended, but Kal'gerion Demon Kal'gerion Demon pouch may be used at lower (<3500%) enrages [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500 enrageband3000]\n- Apply Darkness + Disruption Shield (disrupt) at Wars\n- Master Magic Cape stored for longer debuff duration",
+        "### Preset Notes  \n- Powder of Penance or bring a form of prayer restore + Powder of Protection if using Am-hej (amhej)\n- Hellhound familiar Hellhound pouch recommended, but Ripper Demon Ripper Demon pouch may be used at lower (<3500%) enrages [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500 enrageband3000]\n- Apply Darkness + Disruption Shield (disrupt) at Wars\n- Master Magic Cape stored for longer debuff duration"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Powder of Penance is optional and replaces the blessed flask, at increased cost.",
+      "tags": [
+        "lookup",
+        "from-embed"
+      ],
+      "answerable": true,
+      "seconds": 2.32
+    },
+    {
+      "id": "rotation-opening-sequence",
+      "question": "What is the full opening sequence for Arch-Glacor with Necromancy?",
+      "answer": "The full opening sequence for Arch-Glacor with Necromancy, based on the provided context from the Hybrid Melee/Ranged guide (which outlines a general opener applicable to the fight), is:\n\n1.  **tc** + Greater Barge (**gbarge**) → Meteor Strike → Ek-ZekKil special attack (**ezk**)\n2.  Greater Flurry (**gflurry**) → Rend\n3.  Apply Pulverise and Enfeeble\n4.  Overpower\n5.  Improvise with Assault / Varanus's Mercy Essence of Finality special attack (**eofspec**) / Overpower / Hurricane (cane)\n\n*Note: The context mentions that the Arch-Glacor is not affected by Slayer tasks in hard mode and suggests swapping to a Ripper Demon pouch below 2500% enrage, but does not provide specific Necromancy-only opener steps distinct from this general sequence.*",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "### Opener  \n- Arch Glacor spawns Berserk + Adrenaline Renewal → tc + Greater Barge (gbarge) → Meteor Strike → Ek-ZekKil (ezk) special attack → Greater Flurry (gflurry) → Rend → apply Pulverise + Enfeeble → Overpower → improvise with Assault / Varanus's Mercy Essence of Finality special attack (eofspec) / Overpower / Hurricane (cane)  \n- **First Mechanic:**",
+        "This guide assumes strong underlying knowledge of all information presented in .  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.  \nA large portion of the preset below is built on sustaining high enrage kill streaks. Read the notes in the preset link if you wish to substitute some supplies for more food."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Darkness (cast outside) then Invoke Death, Conjure Undead Army, Life Transfer, Command Vengeful Ghost, Command Skeleton Warrior, and Bloat.",
+      "tags": [
+        "sequence"
+      ],
+      "answerable": true,
+      "seconds": 8.59
+    },
+    {
+      "id": "rotation-first-attack",
+      "question": "Which ability should I attack with first, and why with Necromancy?",
+      "answer": "You should start the fight with **Bloat**, as it is a low adren investment that has no cooldown. Additionally, abilities like **Death Skulls** and **Command Skeleton Warrior** should always be used first because their damage is dealt over time. Note there is also an optional use of **Roar of Awakening + Ode to Deceit** after Command Skeleton Warrior if starting with low Residual Soul stacks (1-2), though the primary priority remains Bloat due to its efficiency and lack of cooldown.",
+      "contexts": [
+        "- Ensure that some Necrosis Stacks Necrosis stack (4+) and Residual Souls Residual Soul (2+) are held for the Exposed Core.  \n- It is best to start the fight with Bloat , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attacks.\n- Both tank gear and TFN should be bound for swapping.  \n- **TFN gear should be worn in the following conditions**;",
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "- If starting with low Residual Soul soul stacks (1-2), use Soul Strike (flanking) over Volley of Souls.\n- Use Soul Sap & Touch of Death where appropriate to build adren and stacks before dumping.\n- Bloat , Death Skulls , and Command Skeleton Warrior should always be used first, as their damage is dealt over time.\n- Offstyle soulfire Roar of Awakening + Ode to Deceit special attack may optionally be used after Command Skeleton Warrior ."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Bloat. It is a low adrenaline investment with no cooldown and high use priority, and there is a 2/5 chance the first mechanic (minions or exposed core) nullifies your opening attacks.",
+      "tags": [
+        "why"
+      ],
+      "answerable": true,
+      "seconds": 3.43
+    },
+    {
+      "id": "rotation-upkeep",
+      "question": "Which abilities should I keep upkept throughout the fight with Necromancy?",
+      "answer": "You should keep Pulverise, Enfeeble, Smoke Cloud, and Devotion (devo) applied or active during the fight. Additionally, ensure you maintain at least 4 Necrosis stacks and 2 Residual Souls for Exposed Core mechanics. Use Bloat early as it has no cooldown and high priority.",
+      "contexts": [
+        "### Fight Checklist  \n- Keep Pulverise + Enfeeble applied while Berserk\n- Have Ek-ZekKil (ezk) equipped as often as possible while meleeing for Flamebound Rival damage reduction\n- Keep Smoke Cloud applied while Greater Sunshine (gsunshine)\n- Don't overspend Bloodlust stacks before Glacyte Minions during Berserk, needed for Hurricane (cane) cooldown refund\n- Regularly use Prism of Restoration to sustain Hellhound pouch",
+        "- Invoke Death → Split Soul → (tc) Vulnerability bomb (vulnbomb) + Bloat → Death Skulls → Command Skeleton Warrior → Soul Strike (flanking) (until 0 stacks) → Death Guard Essence of Finality special attack (eofspec) (6/8 Necrosis stack , use Finger of Death → Death Guard Essence of Finality special attack (eofspec) if at 12/12) → Command Putrid Zombie → Command Phantom Guardian → Devotion (devo) → Omni Guard special attack  \n*Note: Use Devotion (devo) when required.*",
+        "- Ensure that some Necrosis Stacks Necrosis stack (4+) and Residual Souls Residual Soul (2+) are held for the Exposed Core.  \n- It is best to start the fight with Bloat , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attacks.\n- Both tank gear and TFN should be bound for swapping.  \n- **TFN gear should be worn in the following conditions**;"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Aim to upkeep Bloat and Conjure Undead Army as much as possible.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 2.72
+    },
+    {
+      "id": "rotation-splitsoul-3500",
+      "question": "What should I save Split Soul for at 3500% enrage and above with Necromancy?",
+      "answer": "At 3500%+ enrage, you should always reserve splitsoul **Split Soul** for the exposed core.",
+      "contexts": [
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "Roar of Awakening + Ode to Deceit are optionally brought to 0t spec on arms at 3500%+ enrage. Offstyle soulfire speccing arms at high enrage greatly improves consistency, however isn't necessary. This guide isn't structured with their use in consideration. Use `!0tick` in  for more information on 0ticking offstyle special attacks with necromancy. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "At 3500%+ enrage, always reserve Split Soul for the exposed core.",
+      "tags": [
+        "enrage-conditional"
+      ],
+      "answerable": true,
+      "seconds": 1.53
+    },
+    {
+      "id": "rotation-living-death-timing",
+      "question": "When is the best time to use Living Death with Necromancy?",
+      "answer": "The best time to use Living Death during a fight against Arch-Glacor is while the flurry mechanic is active, as it provides a long, uninterrupted window for dealing damage. It can also be used situationally to reset Death Skulls' cooldown in anticipation of an upcoming exposed core mechanic.",
+      "contexts": [
+        "- Living Death is best used during the flurry mechanic. This mechanic gives you a long, uninterrupted window in which you can deal damage to Arch-Glacor. It can situationally be used to reset Death Skulls cooldown in **anticipation of an upcoming exposed core mechanic**. Living Death shouldn't be strategically reserved for arms, as the time it takes to clear the mechanic doesn't largely change with or without the ult active.",
+        "- If starting with low Residual Soul soul stacks (1-2), use Soul Strike (flanking) over Volley of Souls.\n- Use Soul Sap & Touch of Death where appropriate to build adren and stacks before dumping.\n- Bloat , Death Skulls , and Command Skeleton Warrior should always be used first, as their damage is dealt over time.\n- Offstyle soulfire Roar of Awakening + Ode to Deceit special attack may optionally be used after Command Skeleton Warrior .",
+        "- Invoke Death → Split Soul → (tc) Vulnerability bomb (vulnbomb) + Bloat → Death Skulls → Command Skeleton Warrior → Soul Strike (flanking) (until 0 stacks) → Death Guard Essence of Finality special attack (eofspec) (6/8 Necrosis stack , use Finger of Death → Death Guard Essence of Finality special attack (eofspec) if at 12/12) → Command Putrid Zombie → Command Phantom Guardian → Devotion (devo) → Omni Guard special attack  \n*Note: Use Devotion (devo) when required.*"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "During the flurry mechanic, which gives a long uninterrupted damage window. It can situationally be used to reset Death Skulls in anticipation of an upcoming exposed core.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 2.31
+    },
+    {
+      "id": "rotation-living-death-arms",
+      "question": "Should I reserve Living Death for the arms phase with Necromancy?",
+      "answer": "No, do not strategically reserve Living Death for the Arms phase. According to the guide, \"Living Death shouldn't be strategically reserved for arms,\" because clearing the mechanic takes roughly the same amount of time whether or not the ultimate is active. Instead, it is best used during the flurry mechanic and can situationally reset Death Skulls' cooldown in anticipation of an upcoming exposed core mechanic.\n\nI don't have enough information to answer that.",
+      "contexts": [
+        "- Living Death is best used during the flurry mechanic. This mechanic gives you a long, uninterrupted window in which you can deal damage to Arch-Glacor. It can situationally be used to reset Death Skulls cooldown in **anticipation of an upcoming exposed core mechanic**. Living Death shouldn't be strategically reserved for arms, as the time it takes to clear the mechanic doesn't largely change with or without the ult active.",
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "### Exposed Core (Arms)\n- Have your conjures Conjure Undead Army active and Ghost commanded Command Vengeful Ghost.\n- In some cases, it may be best to equip Augmented Excalibur (excal) excalibur to dismiss conjures, and re-conjure Conjure Undead Army to refresh their timer before the next mechanic, if you are anticipating arms coming soon in the spec order. It is essential that conjures have a long enough timer to be **active throughout the entire mechanic.**"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "No. Living Death should not be strategically reserved for arms, because the time to clear the mechanic does not change much with or without the ultimate active.",
+      "tags": [
+        "negative-fact"
+      ],
+      "answerable": true,
+      "seconds": 3.09
+    },
+    {
+      "id": "rotation-before-pillars",
+      "question": "Which abilities should I put on cooldown before the pillars of ice mechanic with Necromancy?",
+      "answer": "You should put Death Guard Essence of Finality (eofspec), Touch of Death, and Divert on cooldown before the Pillars of Ice mechanic blocks your line of sight.",
+      "contexts": [
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "- **Glacyte Minions**: Debilitate (debil) on arch-glacor (2500%+) and, rarely, Anticipation (anti) / Freedom to block or clear stun the freezing blood stun. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]\n- **Flurry**: Disruption Shield (disrupt) / Reflect → Divert (deals ~27k at 4000%) → Debilitate (debil) if needed.\n- **Pillars of Ice**: Life Transfer → Anticipation (anti) → Preparation (prep) → Command Skeleton Warrior",
+        "- Exposed core mechanic is active.\n- Pillars of ice mechanic is active.\n- Disruption Shield (disrupt) / Devotion (devo) / Barricade (cade) is active.\n- Equipped before casting Conjure Undead Army .\n- Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear (~11,100).  \n- In all other situations, **tank gear** should always be worn in cases when you are taking damage."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Death Guard Essence of Finality special attack, Touch of Death, and Divert, because pillars blocks line of sight.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 1.83
+    },
+    {
+      "id": "rotation-stacks-for-core",
+      "question": "How many Necrosis stacks and Residual Souls should I hold for the exposed core?",
+      "answer": "You should ensure that some Necrosis Stacks (4+) and Residual Souls (2+) are held for the Exposed Core.",
+      "contexts": [
+        "- Ensure that some Necrosis Stacks Necrosis stack (4+) and Residual Souls Residual Soul (2+) are held for the Exposed Core.  \n- It is best to start the fight with Bloat , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attacks.\n- Both tank gear and TFN should be bound for swapping.  \n- **TFN gear should be worn in the following conditions**;",
+        "- If starting with low Residual Soul soul stacks (1-2), use Soul Strike (flanking) over Volley of Souls.\n- Use Soul Sap & Touch of Death where appropriate to build adren and stacks before dumping.\n- Bloat , Death Skulls , and Command Skeleton Warrior should always be used first, as their damage is dealt over time.\n- Offstyle soulfire Roar of Awakening + Ode to Deceit special attack may optionally be used after Command Skeleton Warrior .",
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Hold at least 4 Necrosis stacks and at least 2 Residual Souls for the exposed core.",
+      "tags": [
+        "numeric"
+      ],
+      "answerable": true,
+      "seconds": 1.77
+    },
+    {
+      "id": "gear-tfn-conditions",
+      "question": "When should I wear TFN gear with Necromancy?",
+      "answer": "You should wear TFN gear specifically under the conditions outlined in the guide (e.g., Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear). The exact list of those specific conditions is detailed in the full context but was cut off before being listed.",
+      "contexts": [
+        "- Ensure that some Necrosis Stacks Necrosis stack (4+) and Residual Souls Residual Soul (2+) are held for the Exposed Core.  \n- It is best to start the fight with Bloat , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attacks.\n- Both tank gear and TFN should be bound for swapping.  \n- **TFN gear should be worn in the following conditions**;",
+        "## __Presets and Relics__\n- [Necromancy preset](https://presets.pvme.io/?id=ecA3h6GIy9XZPdeXBjwt) Necromancy  \n**Buffs & checklist**\n- Powder of Penance - Optional, replaces blessed flask at increased cost\n- weapon poison Weapon poison active\n- Darkness active\n- Limitless Sigil unlocked\n- Bonfire + thermal spa HP boosts thermal spa flask are active\n- Kwuarm incense sticks Kwuarm incense at 4 stacks",
+        "- Exposed core mechanic is active.\n- Pillars of ice mechanic is active.\n- Disruption Shield (disrupt) / Devotion (devo) / Barricade (cade) is active.\n- Equipped before casting Conjure Undead Army .\n- Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear (~11,100).  \n- In all other situations, **tank gear** should always be worn in cases when you are taking damage."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "When the exposed core is active, when pillars of ice is active, when Disruption Shield, Devotion or Barricade is active, before casting Conjure Undead Army, and when Arch-Glacor is not casting autos and you are at or below your max HP in DPS gear (~11,100).",
+      "tags": [
+        "conditional"
+      ],
+      "answerable": true,
+      "seconds": 2.56
+    },
+    {
+      "id": "gear-tank-conditions",
+      "question": "When should I wear tank gear with Necromancy?",
+      "answer": "You should always wear tank gear when you are taking damage, specifically during the Exposed core mechanic and Frost Cannon at higher enrage. Additionally, both tank gear and TFN (Terror Form) should be bound for swapping, as TFN is worn in specific conditions while tank gear is prioritized for defensives like Vengeance + Soul Split + Reflect → Reprisal + Powerburst of Vitality when you are at or below your max HP (~11,100).",
+      "contexts": [
+        "- Exposed core mechanic is active.\n- Pillars of ice mechanic is active.\n- Disruption Shield (disrupt) / Devotion (devo) / Barricade (cade) is active.\n- Equipped before casting Conjure Undead Army .\n- Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear (~11,100).  \n- In all other situations, **tank gear** should always be worn in cases when you are taking damage.",
+        "### Defensive & utility usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Vengeance (veng) + Soul Split + Reflect → Reprisal + Powerburst of Vitality **(In TANK GEAR & max HP)**\n- **Always wear tank gear** for this mechanic.",
+        "- Ensure that some Necrosis Stacks Necrosis stack (4+) and Residual Souls Residual Soul (2+) are held for the Exposed Core.  \n- It is best to start the fight with Bloat , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attacks.\n- Both tank gear and TFN should be bound for swapping.  \n- **TFN gear should be worn in the following conditions**;"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Tank gear should always be worn whenever you are taking damage, outside of the situations that call for TFN.",
+      "tags": [
+        "conditional"
+      ],
+      "answerable": true,
+      "seconds": 3.43
+    },
+    {
+      "id": "gear-flurry-autos",
+      "question": "Which auto attacks do the most damage during flurry, and why with Necromancy?",
+      "answer": "During Flurry with Necromancy, ranged autos deal the most damage because the 3pc cryptbloom buff does not reduce ranged damage. Additionally, on average, the 3pc cryptbloom set provides superior damage reduction over the 4pc deathwarden set.",
+      "contexts": [
+        "- It is important to note that **ranged autos during flurry** will deal the most damage, as the 3pc cryptbloom buff doesn't reduce ranged damage. On average, the 3pc cryptbloom set provides superior damage reduction over 4pc deathwarden.",
+        "- **Flurry**: Disruption Shield (disrupt) / Resonance (res) / Reflect / Debilitate (debil) (Reflect does decent damage at higher enrage)\n- **Pillars of Ice**: Preparation (prep) / Freedom for adrenaline",
+        "- Exposed core mechanic is active.\n- Pillars of ice mechanic is active.\n- Disruption Shield (disrupt) / Devotion (devo) / Barricade (cade) is active.\n- Equipped before casting Conjure Undead Army .\n- Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear (~11,100).  \n- In all other situations, **tank gear** should always be worn in cases when you are taking damage."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Ranged autos, because the 3-piece Cryptbloom buff does not reduce ranged damage.",
+      "tags": [
+        "why"
+      ],
+      "answerable": true,
+      "seconds": 2.29
+    },
+    {
+      "id": "arms-rotation-high-enrage",
+      "question": "What is the arms rotation at 3000% enrage with Necromancy?",
+      "answer": "I don't have enough information to answer that. The provided context mentions a \"Hybrid Melee/Mage\" guide for Arch-Glacor at **3000-4000%** Enrage, but it does not contain the specific arms rotation details or mention an Arms-only Necromancy strategy specifically tailored for 3000% enrage (the Necromancy guide provided focuses on a general approach and mentions swapping to Ripper Demon pouch below 2500%).",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "Roar of Awakening + Ode to Deceit are optionally brought to 0t spec on arms at 3500%+ enrage. Offstyle soulfire speccing arms at high enrage greatly improves consistency, however isn't necessary. This guide isn't structured with their use in consideration. Use `!0tick` in  for more information on 0ticking offstyle special attacks with necromancy. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Invoke Death, Split Soul, threshold cycle Vulnerability bomb with Bloat, Death Skulls, Command Skeleton Warrior, Soul Strike until 0 stacks, Death Guard EoF special, Command Putrid Zombie, Command Phantom Guardian, Devotion, Omni Guard special attack.",
+      "tags": [
+        "sequence",
+        "enrage-conditional"
+      ],
+      "answerable": true,
+      "seconds": 3.47
+    },
+    {
+      "id": "arms-rotation-low-enrage",
+      "question": "What is the arms rotation below 2500% enrage with Necromancy?",
+      "answer": "The provided context does not contain information about an \"arms\" rotation for Arch-Glacor; it only lists a necromancy rotation (Invoke Death → Soul Strike) and mentions swapping to a Ripper Demon pouch below 2500%. Therefore, I don't have enough information to answer that.",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "- **0-2500%:** [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500]\n- Invoke Death → Soul Strike (flanking) → Soul Strike (flanking)  \n- **2500%+:** [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]",
+        "### General Rotations & tips\n**- Starting the encounter:**  \n- Darkness (outside) → Invoke Death → Conjure Undead Army → Life Transfer → Command Vengeful Ghost → Command Skeleton Warrior → Bloat  \n- Rotations for Arch-Glacor are not strict, as per the random nature of the boss's mechanics. **Aim to upkeep** Bloat & Conjure Undead Army as much as possible."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Invoke Death, then Soul Strike, then Soul Strike.",
+      "tags": [
+        "sequence",
+        "enrage-conditional"
+      ],
+      "answerable": true,
+      "seconds": 2.62
+    },
+    {
+      "id": "arms-tank-swap-timing",
+      "question": "When can I swap to tank gear during the exposed core with Necromancy?",
+      "answer": "You can swap to tank gear when you are taking damage, or specifically around ~15 seconds into the Exposed Core mechanic to benefit from 3pc Cryptbloom's magic damage reduction% passive. Additionally, if the Disruption Shield (disrupt) / Devotion (devo) / Barricade (cade) is active and Arch Glacor is not casting any auto attacks while you are at or below your max HP in DPS gear (~11,100), tank gear should be worn; however, for swapping specifically during the Exposed Core phase to utilize passive benefits, it occurs around ~15s into the mechanic.",
+      "contexts": [
+        "- Ensure that some Necrosis Stacks Necrosis stack (4+) and Residual Souls Residual Soul (2+) are held for the Exposed Core.  \n- It is best to start the fight with Bloat , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attacks.\n- Both tank gear and TFN should be bound for swapping.  \n- **TFN gear should be worn in the following conditions**;",
+        "- Exposed core mechanic is active.\n- Pillars of ice mechanic is active.\n- Disruption Shield (disrupt) / Devotion (devo) / Barricade (cade) is active.\n- Equipped before casting Conjure Undead Army .\n- Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear (~11,100).  \n- In all other situations, **tank gear** should always be worn in cases when you are taking damage.",
+        "- Use Limitless Sigil / Adrenaline Renewal where required depending on adrenaline in order to use Devotion (devo) .\n- If you need to Barricade (cade) , use Divert and flick to Soul Split for 1 tick to get to 100% adrenaline.\n- ~15s into exposed core, you can swap to tank gear to benefit from 3pc cryptbloom's magic damage reduction% passive.  \n**__Example Arms rotation:__**\n- Closely follow the rotation below in priority of cooldowns and stacks available."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Around 15 seconds into the exposed core, to benefit from the 3-piece Cryptbloom magic damage reduction passive.",
+      "tags": [
+        "numeric"
+      ],
+      "answerable": true,
+      "seconds": 4.87
+    },
+    {
+      "id": "arms-barricade-adren",
+      "question": "How do I get to 100% adrenaline if I need to Barricade during arms with Necromancy?",
+      "answer": "To get to 100% adrenaline when you need to Barricade (cade) during Arms with Necromancy, use Divert and flick to Soul Split for 1 tick.\n\n**Example URL:** None provided in the context.",
+      "contexts": [
+        "- Use Limitless Sigil / Adrenaline Renewal where required depending on adrenaline in order to use Devotion (devo) .\n- If you need to Barricade (cade) , use Divert and flick to Soul Split for 1 tick to get to 100% adrenaline.\n- ~15s into exposed core, you can swap to tank gear to benefit from 3pc cryptbloom's magic damage reduction% passive.  \n**__Example Arms rotation:__**\n- Closely follow the rotation below in priority of cooldowns and stacks available.",
+        "- **Always wear tank gear** for this mechanic.\n- Alternatively; Anticipation (anti) → Powerburst of Vitality / Shield Dome / Disruption Shield (disrupt) / Debilitate (debil) / Reflect / Resonance (res) (hit 3, don't need to combo with defensives) / spam food + be overhealed with brew on first hit. Use of any one of these will ensure you survive the mechanic.\n- **Exposed Core** (arms): Devotion (devo) → Divert → Barricade (cade) as needed",
+        "Awakening special attack / Smoke Tendrils + use Runic Charge as needed for either damage or adrenaline"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Use Divert and flick to Soul Split for one tick to reach 100% adrenaline.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 2.52
+    },
+    {
+      "id": "arms-low-soul-stacks",
+      "question": "What should I use during arms if I only have 1 or 2 Residual Soul stacks with Necromancy?",
+      "answer": "Use Soul Strike (flanking) over Volley of Souls.",
+      "contexts": [
+        "- If starting with low Residual Soul soul stacks (1-2), use Soul Strike (flanking) over Volley of Souls.\n- Use Soul Sap & Touch of Death where appropriate to build adren and stacks before dumping.\n- Bloat , Death Skulls , and Command Skeleton Warrior should always be used first, as their damage is dealt over time.\n- Offstyle soulfire Roar of Awakening + Ode to Deceit special attack may optionally be used after Command Skeleton Warrior .",
+        "- Ensure that some Necrosis Stacks Necrosis stack (4+) and Residual Souls Residual Soul (2+) are held for the Exposed Core.  \n- It is best to start the fight with Bloat , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attacks.\n- Both tank gear and TFN should be bound for swapping.  \n- **TFN gear should be worn in the following conditions**;",
+        "- Soul Sap → Spectral Scythe → Invoke Death → Threads of Fate → Volley of Souls → Soul Sap → Volley of Souls → Spectral Scythe (2nd hit) → Spectral Scythe (3rd hit) → Soul Sap → Spectral Scythe / Volley of Souls  \n*Note; movement used in example videos on minion clears helps reduce freezing blood stack gain. 10 stacks of freezing blood will apply a 3s bind and stun.*"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Use Soul Strike instead of Volley of Souls when starting with low (1-2) Residual Soul stacks.",
+      "tags": [
+        "conditional"
+      ],
+      "answerable": true,
+      "seconds": 1.44
+    },
+    {
+      "id": "arms-flank-position",
+      "question": "Where should I stand if I am flanking during arms with Necromancy?",
+      "answer": "If you are flanking, you should stand central or on the south wall next to the boss.",
+      "contexts": [
+        "*Note: Use Devotion (devo) when required.*  \n*Note: If flanking, stand central or on the south wall next to the boss.*",
+        "For **Arms (Exposed Core)** specifically, if your buffs are close to running out while the ice is creeping in, just swap styles early to make sure you're not still building as the mechanic begins.",
+        "Roar of Awakening + Ode to Deceit are optionally brought to 0t spec on arms at 3500%+ enrage. Offstyle soulfire speccing arms at high enrage greatly improves consistency, however isn't necessary. This guide isn't structured with their use in consideration. Use `!0tick` in  for more information on 0ticking offstyle special attacks with necromancy. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Stand central or on the south wall next to the boss.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 1.55
+    },
+    {
+      "id": "minions-rotation-low-enrage",
+      "question": "What is the glacyte minion rotation below 2500% enrage with Necromancy?",
+      "answer": "The necromancy rotation below 2500% enrage is: Invoke Death → Threads of Fate → Soul Sap → Volley of Souls.",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "- Cast Vulnerability bomb (vulnbomb) on the magic minion closest to the bolstering glacyte. This will cause vulnerability to apply to all five glacytes.  \n__Rotation;__  \n- **0-2500%:** [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500]\n- Invoke Death → Threads of Fate → Soul Sap → Volley of Souls  \n- **2500%+** [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Invoke Death, Threads of Fate, Soul Sap, Volley of Souls.",
+      "tags": [
+        "sequence",
+        "enrage-conditional"
+      ],
+      "answerable": true,
+      "seconds": 1.9
+    },
+    {
+      "id": "minions-rotation-high-enrage",
+      "question": "What is the glacyte minion rotation at 3000% enrage with Necromancy?",
+      "answer": "I don't have enough information to answer that. The provided context only lists a specific rotation for Arch-Glacor under **2500%** and mentions swapping strategies below that threshold, but it does not provide the glacyte minion rotation specifically for **3000% enrage** with Necromancy.",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "- Cast Vulnerability bomb (vulnbomb) on the magic minion closest to the bolstering glacyte. This will cause vulnerability to apply to all five glacytes.  \n__Rotation;__  \n- **0-2500%:** [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500]\n- Invoke Death → Threads of Fate → Soul Sap → Volley of Souls  \n- **2500%+** [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Soul Sap, Spectral Scythe, Invoke Death, Threads of Fate, Volley of Souls, Soul Sap, Volley of Souls, Spectral Scythe 2nd hit, Spectral Scythe 3rd hit, Soul Sap, then Spectral Scythe or Volley of Souls.",
+      "tags": [
+        "sequence",
+        "enrage-conditional"
+      ],
+      "answerable": true,
+      "seconds": 2.53
+    },
+    {
+      "id": "minions-target",
+      "question": "Which glacyte should I target when clearing minions with Necromancy?",
+      "answer": "You should always target the bolstering glacyte. This causes perks and jas book to activate on it, and casting Vulnerability bomb (vulnbomb) on the magic minion closest to this specific glacyte will cause vulnerability to apply to all five glacytes.",
+      "contexts": [
+        "### Clearing Glacyte Minions\n- Use Invoke Death → Threads of Fate → Volley of Souls once at 5 Residual Soul stacks. continue casting Spectral Scythe & Soul Sap until at 5/5.\n- Always cast Spectral Scythe before Invoke Death → Threads of Fate , as this starts its 15s cooldown which lets it be available for a second use before Volley of Souls \\#3\n- Always target the bolstering glacyte. This causes perks and jas book to activate on it.",
+        "- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + Greater Chain (gchain) → Omnipower (omni) / Roar of Awakening special attack → Magma Tempest middle of minions → Greater Concentrated Blast (gconc) → Runic Charge + Dragon Breath (dbreath) → Blood Barrage → Greater Chain (gchain) → Wild Magic (wm) / Roar of Awakening special attack\n- Make sure to Caroming 4 Greater Chain (gchain)",
+        "- Cast Vulnerability bomb (vulnbomb) on the magic minion closest to the bolstering glacyte. This will cause vulnerability to apply to all five glacytes.  \n__Rotation;__  \n- **0-2500%:** [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500]\n- Invoke Death → Threads of Fate → Soul Sap → Volley of Souls  \n- **2500%+** [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Always target the bolstering glacyte, which causes perks and the Jas book to activate on it.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 2.19
+    },
+    {
+      "id": "minions-vuln-bomb",
+      "question": "Where should I throw the Vulnerability bomb during minions with Necromancy?",
+      "answer": "You should cast the Vulnerability bomb on the magic minion closest to the bolstering glacyte. This will cause vulnerability to apply to all five glacytes.",
+      "contexts": [
+        "- Cast Vulnerability bomb (vulnbomb) on the magic minion closest to the bolstering glacyte. This will cause vulnerability to apply to all five glacytes.  \n__Rotation;__  \n- **0-2500%:** [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500]\n- Invoke Death → Threads of Fate → Soul Sap → Volley of Souls  \n- **2500%+** [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]",
+        "- Invoke Death → Split Soul → (tc) Vulnerability bomb (vulnbomb) + Bloat → Death Skulls → Command Skeleton Warrior → Soul Strike (flanking) (until 0 stacks) → Death Guard Essence of Finality special attack (eofspec) (6/8 Necrosis stack , use Finger of Death → Death Guard Essence of Finality special attack (eofspec) if at 12/12) → Command Putrid Zombie → Command Phantom Guardian → Devotion (devo) → Omni Guard special attack  \n*Note: Use Devotion (devo) when required.*",
+        "## __Presets and Relics__\n- [Necromancy preset](https://presets.pvme.io/?id=ecA3h6GIy9XZPdeXBjwt) Necromancy  \n**Buffs & checklist**\n- Powder of Penance - Optional, replaces blessed flask at increased cost\n- weapon poison Weapon poison active\n- Darkness active\n- Limitless Sigil unlocked\n- Bonfire + thermal spa HP boosts thermal spa flask are active\n- Kwuarm incense sticks Kwuarm incense at 4 stacks"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "On the magic minion closest to the bolstering glacyte, which applies vulnerability to all five glacytes.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 1.75
+    },
+    {
+      "id": "minions-souls-for-volley",
+      "question": "How many Residual Soul stacks do I need before casting Volley of Souls with Necromancy?",
+      "answer": "You should cast Volley of Souls once at **5** Residual Soul stacks. If starting with low stacks (1-2), use Soul Strike instead, but the specific instruction for using Invoke Death → Threads of Fate → Volley of Souls is given \"once at 5 Residual Soul stacks.\"",
+      "contexts": [
+        "- If starting with low Residual Soul soul stacks (1-2), use Soul Strike (flanking) over Volley of Souls.\n- Use Soul Sap & Touch of Death where appropriate to build adren and stacks before dumping.\n- Bloat , Death Skulls , and Command Skeleton Warrior should always be used first, as their damage is dealt over time.\n- Offstyle soulfire Roar of Awakening + Ode to Deceit special attack may optionally be used after Command Skeleton Warrior .",
+        "### Clearing Glacyte Minions\n- Use Invoke Death → Threads of Fate → Volley of Souls once at 5 Residual Soul stacks. continue casting Spectral Scythe & Soul Sap until at 5/5.\n- Always cast Spectral Scythe before Invoke Death → Threads of Fate , as this starts its 15s cooldown which lets it be available for a second use before Volley of Souls \\#3\n- Always target the bolstering glacyte. This causes perks and jas book to activate on it.",
+        "- Soul Sap → Spectral Scythe → Invoke Death → Threads of Fate → Volley of Souls → Soul Sap → Volley of Souls → Spectral Scythe (2nd hit) → Spectral Scythe (3rd hit) → Soul Sap → Spectral Scythe / Volley of Souls  \n*Note; movement used in example videos on minion clears helps reduce freezing blood stack gain. 10 stacks of freezing blood will apply a 3s bind and stun.*"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "5 Residual Soul stacks.",
+      "tags": [
+        "numeric"
+      ],
+      "answerable": true,
+      "seconds": 2.72
+    },
+    {
+      "id": "minions-freezing-blood",
+      "question": "What happens at 10 stacks of freezing blood with Necromancy?",
+      "answer": "At 10 stacks of freezing blood, a 3s bind and stun is applied.",
+      "contexts": [
+        "- Soul Sap → Spectral Scythe → Invoke Death → Threads of Fate → Volley of Souls → Soul Sap → Volley of Souls → Spectral Scythe (2nd hit) → Spectral Scythe (3rd hit) → Soul Sap → Spectral Scythe / Volley of Souls  \n*Note; movement used in example videos on minion clears helps reduce freezing blood stack gain. 10 stacks of freezing blood will apply a 3s bind and stun.*",
+        "- **Glacyte Minions**: Debilitate (debil) on arch-glacor (2500%+) and, rarely, Anticipation (anti) / Freedom to block or clear stun the freezing blood stun. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]\n- **Flurry**: Disruption Shield (disrupt) / Reflect → Divert (deals ~27k at 4000%) → Debilitate (debil) if needed.\n- **Pillars of Ice**: Life Transfer → Anticipation (anti) → Preparation (prep) → Command Skeleton Warrior",
+        "## __Presets and Relics__\n- [Necromancy preset](https://presets.pvme.io/?id=ecA3h6GIy9XZPdeXBjwt) Necromancy  \n**Buffs & checklist**\n- Powder of Penance - Optional, replaces blessed flask at increased cost\n- weapon poison Weapon poison active\n- Darkness active\n- Limitless Sigil unlocked\n- Bonfire + thermal spa HP boosts thermal spa flask are active\n- Kwuarm incense sticks Kwuarm incense at 4 stacks"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "10 stacks of freezing blood applies a 3 second bind and stun.",
+      "tags": [
+        "numeric"
+      ],
+      "answerable": true,
+      "seconds": 2.29
+    },
+    {
+      "id": "minions-scythe-order",
+      "question": "Should I cast Spectral Scythe before or after Invoke Death when clearing minions with Necromancy?",
+      "answer": "You should always cast **Spectral Scythe** before **Invoke Death → Threads of Fate**, as this starts its 15s cooldown which lets it be available for a second use before Volley of Souls #3.",
+      "contexts": [
+        "### Clearing Glacyte Minions\n- Use Invoke Death → Threads of Fate → Volley of Souls once at 5 Residual Soul stacks. continue casting Spectral Scythe & Soul Sap until at 5/5.\n- Always cast Spectral Scythe before Invoke Death → Threads of Fate , as this starts its 15s cooldown which lets it be available for a second use before Volley of Souls \\#3\n- Always target the bolstering glacyte. This causes perks and jas book to activate on it.",
+        "- Soul Sap → Spectral Scythe → Invoke Death → Threads of Fate → Volley of Souls → Soul Sap → Volley of Souls → Spectral Scythe (2nd hit) → Spectral Scythe (3rd hit) → Soul Sap → Spectral Scythe / Volley of Souls  \n*Note; movement used in example videos on minion clears helps reduce freezing blood stack gain. 10 stacks of freezing blood will apply a 3s bind and stun.*",
+        "- Invoke Death → Split Soul → (tc) Vulnerability bomb (vulnbomb) + Bloat → Death Skulls → Command Skeleton Warrior → Soul Strike (flanking) (until 0 stacks) → Death Guard Essence of Finality special attack (eofspec) (6/8 Necrosis stack , use Finger of Death → Death Guard Essence of Finality special attack (eofspec) if at 12/12) → Command Putrid Zombie → Command Phantom Guardian → Devotion (devo) → Omni Guard special attack  \n*Note: Use Devotion (devo) when required.*"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Before. Casting Spectral Scythe first starts its 15 second cooldown, so it is available again before the third Volley of Souls.",
+      "tags": [
+        "ordering",
+        "why"
+      ],
+      "answerable": true,
+      "seconds": 3.43
+    },
+    {
+      "id": "defensive-frost-cannon",
+      "question": "What defensives should I use for the frost cannon with Necromancy?",
+      "answer": "For Frost Cannon in Necromancy at higher enrage, prioritize these defensives: Anticipation → Vengeance + Soul Split + Reflect → Reprisal + Powerburst of Vitality. Always wear tank gear for this mechanic.",
+      "contexts": [
+        "### Defensive Usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Deflect Magic (DeflectMage) Powerburst of Vitality / Debilitate (debil) / Reflect (only one is needed)\n- Resonance (res) a hit if needed\n- **Exposed Core** (Arms): Devotion (devo) if it goes too long, rarely needed\n- **Glacyte Minions**: Reflect / Debilitate (debil)",
+        "### Defensive & utility usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Vengeance (veng) + Soul Split + Reflect → Reprisal + Powerburst of Vitality **(In TANK GEAR & max HP)**\n- **Always wear tank gear** for this mechanic.",
+        "### Defensive Usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Deflect Magic (DeflectMage) Powerburst of Vitality / Debilitate (debil) / Reflect (only one is needed)\n- Resonance (res) a hit if needed\n- **Exposed Core** (Arms): Devotion (devo) if it goes too long, rarely needed\n- **Glacyte Minions**: Reflect / Debilitate (debil)"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Anticipation, then Vengeance with Soul Split and Reflect, then Reprisal with Powerburst of Vitality, in tank gear at max HP.",
+      "tags": [
+        "sequence"
+      ],
+      "answerable": true,
+      "seconds": 3.64
+    },
+    {
+      "id": "defensive-frost-cannon-gear",
+      "question": "What gear should I wear for the frost cannon with Necromancy?",
+      "answer": "You should always wear tank gear when using Frost Cannon in Necromancy. This is required if you are at or below your max HP, and it is explicitly stated that \"Always wear tank gear\" for this mechanic. In all other situations where you are taking damage while playing Necromancy with Frost Cannon, tank gear should also be worn.",
+      "contexts": [
+        "### Defensive & utility usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Vengeance (veng) + Soul Split + Reflect → Reprisal + Powerburst of Vitality **(In TANK GEAR & max HP)**\n- **Always wear tank gear** for this mechanic.",
+        "- Exposed core mechanic is active.\n- Pillars of ice mechanic is active.\n- Disruption Shield (disrupt) / Devotion (devo) / Barricade (cade) is active.\n- Equipped before casting Conjure Undead Army .\n- Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear (~11,100).  \n- In all other situations, **tank gear** should always be worn in cases when you are taking damage.",
+        "### Defensive Usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Deflect Magic (DeflectMage) Powerburst of Vitality / Debilitate (debil) / Reflect (only one is needed)\n- Resonance (res) a hit if needed\n- **Exposed Core** (Arms): Devotion (devo) if it goes too long, rarely needed\n- **Glacyte Minions**: Reflect / Debilitate (debil)"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Always wear tank gear for the frost cannon mechanic.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 6.02
+    },
+    {
+      "id": "defensive-flurry",
+      "question": "What defensives should I use during flurry with Necromancy?",
+      "answer": "During Flurry, you can use Disruption Shield (disrupt), Resonance (res), Reflect, or Debilitate. Note that the 3pc cryptbloom buff does not reduce ranged damage, making ranged autos deal the most damage during flurry. The guide also mentions that Offstyle soulfire speccing arms at high enrage greatly improves consistency but isn't necessary for defensives usage.",
+      "contexts": [
+        "- It is important to note that **ranged autos during flurry** will deal the most damage, as the 3pc cryptbloom buff doesn't reduce ranged damage. On average, the 3pc cryptbloom set provides superior damage reduction over 4pc deathwarden.",
+        "Roar of Awakening + Ode to Deceit are optionally brought to 0t spec on arms at 3500%+ enrage. Offstyle soulfire speccing arms at high enrage greatly improves consistency, however isn't necessary. This guide isn't structured with their use in consideration. Use `!0tick` in  for more information on 0ticking offstyle special attacks with necromancy. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]",
+        "- **Flurry**: Disruption Shield (disrupt) / Resonance (res) / Reflect / Debilitate (debil) (Reflect does decent damage at higher enrage)\n- **Pillars of Ice**: Preparation (prep) / Freedom for adrenaline"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Disruption Shield or Reflect, then Divert, then Debilitate if needed.",
+      "tags": [
+        "sequence"
+      ],
+      "answerable": true,
+      "seconds": 6.54
+    },
+    {
+      "id": "defensive-divert-damage",
+      "question": "How much damage does Divert deal at 4000% enrage with Necromancy?",
+      "answer": "Divert deals ~27k damage at 4000% enrage.",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "- **Glacyte Minions**: Debilitate (debil) on arch-glacor (2500%+) and, rarely, Anticipation (anti) / Freedom to block or clear stun the freezing blood stun. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]\n- **Flurry**: Disruption Shield (disrupt) / Reflect → Divert (deals ~27k at 4000%) → Debilitate (debil) if needed.\n- **Pillars of Ice**: Life Transfer → Anticipation (anti) → Preparation (prep) → Command Skeleton Warrior"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Divert deals roughly 27k damage at 4000% enrage.",
+      "tags": [
+        "numeric"
+      ],
+      "answerable": true,
+      "seconds": 3.05
+    },
+    {
+      "id": "defensive-pillars",
+      "question": "What should I do during the pillars of ice mechanic with Necromancy?",
+      "answer": "During the Pillars of Ice mechanic, you should put Death Guard Essence of Finality special attack (eofspec), Touch of Death, and Divert on cooldown before your line of sight is blocked. Additionally, use Life Transfer → Anticipation (anti) → Preparation (prep) → Command Skeleton Warrior.",
+      "contexts": [
+        "- Exposed core mechanic is active.\n- Pillars of ice mechanic is active.\n- Disruption Shield (disrupt) / Devotion (devo) / Barricade (cade) is active.\n- Equipped before casting Conjure Undead Army .\n- Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear (~11,100).  \n- In all other situations, **tank gear** should always be worn in cases when you are taking damage.",
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "- **Glacyte Minions**: Debilitate (debil) on arch-glacor (2500%+) and, rarely, Anticipation (anti) / Freedom to block or clear stun the freezing blood stun. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]\n- **Flurry**: Disruption Shield (disrupt) / Reflect → Divert (deals ~27k at 4000%) → Debilitate (debil) if needed.\n- **Pillars of Ice**: Life Transfer → Anticipation (anti) → Preparation (prep) → Command Skeleton Warrior"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Life Transfer, Anticipation, Preparation, Command Skeleton Warrior.",
+      "tags": [
+        "sequence"
+      ],
+      "answerable": true,
+      "seconds": 6.49
+    },
+    {
+      "id": "defensive-skeleton-los",
+      "question": "Can my skeleton deal damage if I have no line of sight with Necromancy?",
+      "answer": "Yes, a Command Skeleton Warrior can deal damage even if you don't have Line of Sight (LOS), depending on the skeleton's position.",
+      "contexts": [
+        "- Command Skeleton Warrior can deal damage even if the player doesn't have LOS, depending on the skeleton's position.",
+        "### General Rotations & tips\n**- Starting the encounter:**  \n- Darkness (outside) → Invoke Death → Conjure Undead Army → Life Transfer → Command Vengeful Ghost → Command Skeleton Warrior → Bloat  \n- Rotations for Arch-Glacor are not strict, as per the random nature of the boss's mechanics. **Aim to upkeep** Bloat & Conjure Undead Army as much as possible.",
+        "- Living Death is best used during the flurry mechanic. This mechanic gives you a long, uninterrupted window in which you can deal damage to Arch-Glacor. It can situationally be used to reset Death Skulls cooldown in **anticipation of an upcoming exposed core mechanic**. Living Death shouldn't be strategically reserved for arms, as the time it takes to clear the mechanic doesn't largely change with or without the ult active."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Yes. Command Skeleton Warrior can deal damage even without line of sight, depending on the skeleton's position.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 4.03
+    },
+    {
+      "id": "video-4000",
+      "question": "Is there an example kill video at 4000% enrage with Necromancy?",
+      "answer": "Yes, there is an example kill video for Arch-Glacor using Necromancy at a 10:57 (approximately 4000%) GM timer. The URL is: https://youtu.be/B-5v0Qb4XUE?si=I57326aSERYg8Cub",
+      "contexts": [
+        "## __Example Kills__\n- Example kill video, 3000% GM timer__ (5:25): https://youtu.be/B-5v0Qb4XUE?si=I57326aSERYg8Cub\n- Example kill video, 10:57 4000%: https://youtu.be/ETA6vtiuOvA?si=ZYkp-da10MvEuS0d\nContent and guide formatting provided and maintained by:",
+        "## __Example Kills__\n- Example kill video, Arch-Glacor: https://youtu.be/pRDGPkOARhc\n- Example kill video, Arch-Glacor: https://youtu.be/SD3Q0SUPePY",
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Yes, a 10:57 kill at 4000%: https://youtu.be/ETA6vtiuOvA?si=ZYkp-da10MvEuS0d",
+      "tags": [
+        "link",
+        "from-embed"
+      ],
+      "answerable": true,
+      "seconds": 4.23
+    },
+    {
+      "id": "video-gm-timer",
+      "question": "Do you have a video of a GM timer kill with Necromancy?",
+      "answer": "Yes. There is an example kill video for 3000% GM timer using Necromancy at the following URL: https://youtu.be/B-5v0Qb4XUE?si=I57326aSERYg8Cub",
+      "contexts": [
+        "## __Example Kills__\n- Example kill video, 3000% GM timer__ (5:25): https://youtu.be/B-5v0Qb4XUE?si=I57326aSERYg8Cub\n- Example kill video, 10:57 4000%: https://youtu.be/ETA6vtiuOvA?si=ZYkp-da10MvEuS0d\nContent and guide formatting provided and maintained by:",
+        "## __Example Kills__\n- Example kill video, Arch-Glacor: https://youtu.be/pRDGPkOARhc\n- Example kill video, Arch-Glacor: https://youtu.be/SD3Q0SUPePY",
+        "## __Example Kills__\n- Example kill video, Arch-Glacor: https://www.youtube.com/watch?v=DPvi27nJZxI\n- Example kill video, Arch-Glacor: https://www.youtube.com/watch?v=IN2n-txSPD8"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Yes, a 3000% GM timer kill in 5:25: https://youtu.be/B-5v0Qb4XUE?si=I57326aSERYg8Cub",
+      "tags": [
+        "link",
+        "from-embed"
+      ],
+      "answerable": true,
+      "seconds": 2.73
+    },
+    {
+      "id": "unanswerable-5000-enrage",
+      "question": "What is the arms rotation at 5000% enrage?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "Roar of Awakening + Ode to Deceit are optionally brought to 0t spec on arms at 3500%+ enrage. Offstyle soulfire speccing arms at high enrage greatly improves consistency, however isn't necessary. This guide isn't structured with their use in consideration. Use `!0tick` in  for more information on 0ticking offstyle special attacks with necromancy. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]",
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 1.47
+    },
+    {
+      "id": "unanswerable-other-boss",
+      "question": "How do I kill Zuk with Necromancy?",
+      "answer": "I don't have enough information to answer that. The provided context only contains instructions for killing Arch-Glacor, not Zuk.",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "- Invoke Death → Split Soul → (tc) Vulnerability bomb (vulnbomb) + Bloat → Death Skulls → Command Skeleton Warrior → Soul Strike (flanking) (until 0 stacks) → Death Guard Essence of Finality special attack (eofspec) (6/8 Necrosis stack , use Finger of Death → Death Guard Essence of Finality special attack (eofspec) if at 12/12) → Command Putrid Zombie → Command Phantom Guardian → Devotion (devo) → Omni Guard special attack  \n*Note: Use Devotion (devo) when required.*",
+        "## __Presets and Relics__\n- [Necromancy preset](https://presets.pvme.io/?id=ecA3h6GIy9XZPdeXBjwt) Necromancy  \n**Buffs & checklist**\n- Powder of Penance - Optional, replaces blessed flask at increased cost\n- weapon poison Weapon poison active\n- Darkness active\n- Limitless Sigil unlocked\n- Bonfire + thermal spa HP boosts thermal spa flask are active\n- Kwuarm incense sticks Kwuarm incense at 4 stacks"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 1.82
+    },
+    {
+      "id": "mm-magic-phase-checklist",
+      "question": "What is the magic phase rotation for the Melee/Magic hybrid?",
+      "answer": "The provided context mentions a \"Magic Phase\" under the Hybrid Melee/Magic guide but does not list the specific rotations or steps involved in it; it only states that these are laid out as a general checklist. Therefore, I don't have enough information to answer that.",
+      "contexts": [
+        "### Magic Phase\nThe following rotations are laid out as a general checklist that could deviate based on order of mechanics",
+        "### Ranged Phase\nThe following rotations are laid out as a general checklist that could deviate based on order of mechanics",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "The following rotations are laid out as a general checklist that could deviate based on the order of mechanics.",
+      "tags": [
+        "sequence"
+      ],
+      "answerable": true,
+      "seconds": 2.27
+    },
+    {
+      "id": "mm-minions-magma",
+      "question": "Where do I place Magma Tempest when clearing glacyte minions as Melee/Magic?",
+      "answer": "Place the Magma Tempest in the middle of the Glacyte Minions.",
+      "contexts": [
+        "- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + Greater Chain (gchain) → Omnipower (omni) / Roar of Awakening special attack → Magma Tempest middle of minions → Greater Concentrated Blast (gconc) → Runic Charge + Dragon Breath (dbreath) → Blood Barrage → Greater Chain (gchain) → Wild Magic (wm) / Roar of Awakening special attack\n- Make sure to Caroming 4 Greater Chain (gchain)",
+        "### Clearing Glacyte Minions\n- Use Invoke Death → Threads of Fate → Volley of Souls once at 5 Residual Soul stacks. continue casting Spectral Scythe & Soul Sap until at 5/5.\n- Always cast Spectral Scythe before Invoke Death → Threads of Fate , as this starts its 15s cooldown which lets it be available for a second use before Volley of Souls \\#3\n- Always target the bolstering glacyte. This causes perks and jas book to activate on it.",
+        "- Cast Vulnerability bomb (vulnbomb) on the magic minion closest to the bolstering glacyte. This will cause vulnerability to apply to all five glacytes.  \n__Rotation;__  \n- **0-2500%:** [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500]\n- Invoke Death → Threads of Fate → Soul Sap → Volley of Souls  \n- **2500%+** [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "In the middle of the minions.",
+      "tags": [
+        "lookup"
+      ],
+      "answerable": true,
+      "seconds": 1.77
+    },
+    {
+      "id": "mm-caroming-gchain",
+      "question": "Do I need Caroming 4 on my chain when clearing minions as Melee/Magic?",
+      "answer": "Yes, the guide states: \"Make sure to Caroming 4 Greater Chain (gchain)\" while clearing Glacyte Minions in the Hybrid Melee/Magic rotation.",
+      "contexts": [
+        "- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + Greater Chain (gchain) → Omnipower (omni) / Roar of Awakening special attack → Magma Tempest middle of minions → Greater Concentrated Blast (gconc) → Runic Charge + Dragon Breath (dbreath) → Blood Barrage → Greater Chain (gchain) → Wild Magic (wm) / Roar of Awakening special attack\n- Make sure to Caroming 4 Greater Chain (gchain)",
+        "- Make sure to Caroming 4 Greater Chain (gchain)\n- If close to end of Greater Sunshine (gsunshine), swap to melee early and Meteor Strike + Berserk to do the melee clear instead\n- Arms: Asphyxiate (asphyx) → Runic Charge + Greater Concentrated Blast (gconc) → Omnipower (omni) → Smoke Tendrils → Greater Concentrated Blast (gconc) → Wild Magic (wm) → Devotion (devo) + improvise",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Yes, make sure to Caroming 4 the Greater Chain.",
+      "tags": [
+        "lookup",
+        "jargon"
+      ],
+      "answerable": true,
+      "seconds": 2.01
+    },
+    {
+      "id": "mm-minions-swap-early",
+      "question": "What should I do if Greater Sunshine is about to end during glacyte minions?",
+      "answer": "If close to the end of Greater Sunshine, swap to melee early and use Meteor Strike + Berserk to clear the Glacyte Minions instead.",
+      "contexts": [
+        "- Make sure to Caroming 4 Greater Chain (gchain)\n- If close to end of Greater Sunshine (gsunshine), swap to melee early and Meteor Strike + Berserk to do the melee clear instead\n- Arms: Asphyxiate (asphyx) → Runic Charge + Greater Concentrated Blast (gconc) → Omnipower (omni) → Smoke Tendrils → Greater Concentrated Blast (gconc) → Wild Magic (wm) → Devotion (devo) + improvise",
+        "### Clearing Glacyte Minions\n- Use Invoke Death → Threads of Fate → Volley of Souls once at 5 Residual Soul stacks. continue casting Spectral Scythe & Soul Sap until at 5/5.\n- Always cast Spectral Scythe before Invoke Death → Threads of Fate , as this starts its 15s cooldown which lets it be available for a second use before Volley of Souls \\#3\n- Always target the bolstering glacyte. This causes perks and jas book to activate on it.",
+        "- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + Greater Chain (gchain) → Omnipower (omni) / Roar of Awakening special attack → Magma Tempest middle of minions → Greater Concentrated Blast (gconc) → Runic Charge + Dragon Breath (dbreath) → Blood Barrage → Greater Chain (gchain) → Wild Magic (wm) / Roar of Awakening special attack\n- Make sure to Caroming 4 Greater Chain (gchain)"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Swap to melee early and use Meteor Strike plus Berserk to do the melee clear instead.",
+      "tags": [
+        "conditional"
+      ],
+      "answerable": true,
+      "seconds": 1.73
+    },
+    {
+      "id": "mm-familiar-low-enrage",
+      "question": "Which familiar can I use below 3500% enrage on the Melee/Magic hybrid?",
+      "answer": "You can use a Hellhound or a Ripper Demon as your familiar below 3500% enrage. The guide recommends using a Hellhound pouch, but notes that a Ripper Demon pouch may be used at lower (<3500%) enrages.",
+      "contexts": [
+        "### Preset Notes  \n- Powder of Penance or bring a form of prayer restore + Powder of Protection if using Am-hej (amhej)\n- Hellhound familiar Hellhound pouch recommended, but Ripper Demon Ripper Demon pouch may be used at lower (<3500%) enrages [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500 enrageband3000]\n- Apply Darkness + Disruption Shield (disrupt) at Wars\n- Master Magic Cape stored for longer debuff duration",
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Kal'gerion Demon may be used below 3500% enrage, though Hellhound is recommended.",
+      "tags": [
+        "enrage-conditional"
+      ],
+      "answerable": true,
+      "seconds": 2.14
+    },
+    {
+      "id": "mm-nodon-harness",
+      "question": "Should I wear the Nodon spike harness on Melee/Magic?",
+      "answer": "Yes, according to the Hybrid Melee/Magic guide, an optional Nodon spike harness can be used for extra melee damage; otherwise, Zemouregal's Nexus should be worn. The full URL for the preset is: https://presets.pvme.io?id=d094d086-73a3-4f45-9bd9-1fbadc4758af",
+      "contexts": [
+        "- Optional Dragon battleaxe (dba) special attack usage at Wars\n- Optional Nodon spike harness for extra melee damage, otherwise wear Zemouregal's Nexus",
+        "## __Presets and Relics__\n- [Melee / Magic preset](https://presets.pvme.io?id=d094d086-73a3-4f45-9bd9-1fbadc4758af) Melee Magic",
+        "- Exposed core mechanic is active.\n- Pillars of ice mechanic is active.\n- Disruption Shield (disrupt) / Devotion (devo) / Barricade (cade) is active.\n- Equipped before casting Conjure Undead Army .\n- Arch glacor is not casting any auto attacks, and you are at or below your max HP in DPS gear (~11,100).  \n- In all other situations, **tank gear** should always be worn in cases when you are taking damage."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "It is optional for extra melee damage, otherwise wear Zemouregal's Nexus.",
+      "tags": [
+        "conditional"
+      ],
+      "answerable": true,
+      "seconds": 2.77
+    },
+    {
+      "id": "mm-melee-clear-finish",
+      "question": "After Berserk ends during a minion clear on Melee/Magic, what do I finish with?",
+      "answer": "You should swap to magic and finish the clear with Tsunami / Greater Chain (gchain) / Runic Charge + Dragon Breath (dbreath).",
+      "contexts": [
+        "- After Meteor Strike + Berserk ends, swap to magic to finish the clear with Tsunami / Greater Chain (gchain) / Runic Charge + Dragon Breath (dbreath)\n- Arms: Improvise with Overpower / Chaos Roar + Hurricane (cane) / Varanus's Mercy Essence of Finality special attack (eofspec) / Assault / Punish",
+        "- Start with Piercing Shot → Greater Ricochet (grico) → Piercing Shot if Greater Ricochet (grico) was not used during Berserk  \n- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + Decimation Essence of Finality special attack (eofspec) → Deadshot if available → spam Gloomfire bow Essence of Finality special attack (eofspec)\n- If Imbue Shadows runs out, swap to melee early and Meteor Strike + Berserk to do the melee clear instead",
+        "- Make sure to Caroming 4 Greater Chain (gchain)\n- If close to end of Greater Sunshine (gsunshine), swap to melee early and Meteor Strike + Berserk to do the melee clear instead\n- Arms: Asphyxiate (asphyx) → Runic Charge + Greater Concentrated Blast (gconc) → Omnipower (omni) → Smoke Tendrils → Greater Concentrated Blast (gconc) → Wild Magic (wm) → Devotion (devo) + improvise"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Swap to magic and finish with Tsunami, Greater Chain, or Runic Charge plus Dragon Breath.",
+      "tags": [
+        "sequence"
+      ],
+      "answerable": true,
+      "seconds": 1.77
+    },
+    {
+      "id": "mm-video",
+      "question": "Is there an example kill video for the Melee/Magic hybrid?",
+      "answer": "Yes, there are two example kill videos for Arch-Glacor in the Hybrid Melee/Magic guide: https://www.youtube.com/watch?v=DPvi27nJZxI and https://www.youtube.com/watch?v=IN2n-txSPD8.",
+      "contexts": [
+        "## __Example Kills__\n- Example kill video, Arch-Glacor: https://youtu.be/pRDGPkOARhc\n- Example kill video, Arch-Glacor: https://youtu.be/SD3Q0SUPePY",
+        "## __Example Kills__\n- Example kill video, Arch-Glacor: https://www.youtube.com/watch?v=DPvi27nJZxI\n- Example kill video, Arch-Glacor: https://www.youtube.com/watch?v=IN2n-txSPD8",
+        "## __Example Kills__\n- Example kill video, 3000% GM timer__ (5:25): https://youtu.be/B-5v0Qb4XUE?si=I57326aSERYg8Cub\n- Example kill video, 10:57 4000%: https://youtu.be/ETA6vtiuOvA?si=ZYkp-da10MvEuS0d\nContent and guide formatting provided and maintained by:"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Yes: https://www.youtube.com/watch?v=DPvi27nJZxI",
+      "tags": [
+        "link"
+      ],
+      "answerable": true,
+      "seconds": 2.71
+    },
+    {
+      "id": "mr-ranged-phase-checklist",
+      "question": "What is the ranged phase rotation for the Melee/Ranged hybrid?",
+      "answer": "The provided context does not contain specific details on what constitutes the \"Ranged Phase\" rotation, only stating that rotations are laid out as a general checklist and may deviate based on mechanics. I don't have enough information to answer that.",
+      "contexts": [
+        "### Ranged Phase\nThe following rotations are laid out as a general checklist that could deviate based on order of mechanics",
+        "### Magic Phase\nThe following rotations are laid out as a general checklist that could deviate based on order of mechanics",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "The following rotations are laid out as a general checklist that could deviate based on the order of mechanics.",
+      "tags": [
+        "sequence"
+      ],
+      "answerable": true,
+      "seconds": 2.38
+    },
+    {
+      "id": "mr-piercing-shot-start",
+      "question": "What do I start the ranged phase with if Greater Ricochet was not used during Berserk?",
+      "answer": "Start with Piercing Shot.",
+      "contexts": [
+        "- Start with Piercing Shot → Greater Ricochet (grico) → Piercing Shot if Greater Ricochet (grico) was not used during Berserk  \n- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + Decimation Essence of Finality special attack (eofspec) → Deadshot if available → spam Gloomfire bow Essence of Finality special attack (eofspec)\n- If Imbue Shadows runs out, swap to melee early and Meteor Strike + Berserk to do the melee clear instead",
+        "- Use Death Spore Arrows Greater Ricochet (grico) once during each Berserk for a faster setup on the next Greater Death's Swiftness (gdeathsswift)",
+        "- After Meteor Strike + Berserk ends, swap to ranged to finish the clear with Death Spore Arrows Greater Ricochet (grico) → Greater Death's Swiftness (gdeathsswift) → Imbue Shadows → Decimation Essence of Finality special attack (eofspec)\n- Arms: Improvise with Overpower / Chaos Roar + Hurricane (cane) / Varanus's Mercy Essence of Finality special attack (eofspec) / Assault / Punish"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Start with Piercing Shot, then Greater Ricochet, then Piercing Shot.",
+      "tags": [
+        "conditional"
+      ],
+      "answerable": true,
+      "seconds": 1.28
+    },
+    {
+      "id": "mr-grico-berserk",
+      "question": "How often should I use Death Spore Arrows with grico?",
+      "answer": "Use Death Spore Arrows Greater Ricochet once during each Berserk for a faster setup on the next Greater Death's Swiftness. Additionally, after Meteor Strike + Berserk ends, swap to ranged to finish the clear using these arrows.",
+      "contexts": [
+        "- Use Death Spore Arrows Greater Ricochet (grico) once during each Berserk for a faster setup on the next Greater Death's Swiftness (gdeathsswift)",
+        "- Death Spore Arrows Greater Ricochet (grico) → Greater Death's Swiftness (gdeathsswift) → Imbue Shadows → Bow of the Last Guardian (bolg) special attack → Eldritch Crossbow (ecb) Essence of Finality special attack (eofspec) → Gale Shot → Rapid Fire → improvise with Deadshot / Seren godbow (sgb) Essence of Finality special attack (eofspec) / Gloomfire bow Essence of Finality special attack (eofspec) / Snapshot → use Shadow Tendrils to extend Imbue Shadows → Eldritch Crossbow (ecb) Essence of",
+        "- After Meteor Strike + Berserk ends, swap to ranged to finish the clear with Death Spore Arrows Greater Ricochet (grico) → Greater Death's Swiftness (gdeathsswift) → Imbue Shadows → Decimation Essence of Finality special attack (eofspec)\n- Arms: Improvise with Overpower / Chaos Roar + Hurricane (cane) / Varanus's Mercy Essence of Finality special attack (eofspec) / Assault / Punish"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Once during each Berserk, for a faster setup on the next Greater Death's Swiftness.",
+      "tags": [
+        "jargon",
+        "numeric"
+      ],
+      "answerable": true,
+      "seconds": 2.22
+    },
+    {
+      "id": "mr-imbue-runs-out",
+      "question": "What should I do if Imbue Shadows runs out during glacyte minions on Melee/Ranged?",
+      "answer": "If Imbue Shadows runs out, swap to melee early and use Meteor Strike + Berserk to clear the Glacyte Minions instead.",
+      "contexts": [
+        "- Start with Piercing Shot → Greater Ricochet (grico) → Piercing Shot if Greater Ricochet (grico) was not used during Berserk  \n- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + Decimation Essence of Finality special attack (eofspec) → Deadshot if available → spam Gloomfire bow Essence of Finality special attack (eofspec)\n- If Imbue Shadows runs out, swap to melee early and Meteor Strike + Berserk to do the melee clear instead",
+        "### Clearing Glacyte Minions\n- Use Invoke Death → Threads of Fate → Volley of Souls once at 5 Residual Soul stacks. continue casting Spectral Scythe & Soul Sap until at 5/5.\n- Always cast Spectral Scythe before Invoke Death → Threads of Fate , as this starts its 15s cooldown which lets it be available for a second use before Volley of Souls \\#3\n- Always target the bolstering glacyte. This causes perks and jas book to activate on it.",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Swap to melee early and use Meteor Strike plus Berserk to do the melee clear instead.",
+      "tags": [
+        "conditional"
+      ],
+      "answerable": true,
+      "seconds": 1.87
+    },
+    {
+      "id": "mr-familiar-low-enrage",
+      "question": "Which familiar can I use below 3500% enrage on the Melee/Ranged hybrid?",
+      "answer": "You can use a Hellhound or a Ripper Demon as your familiar below 3500% enrage. The guide recommends using a Hellhound pouch, but notes that you may also use a Ripper Demon pouch at lower (<3500%) enrages.",
+      "contexts": [
+        "### Preset Notes  \n- Powder of Penance or bring a form of prayer restore + Powder of Protection if using Am-hej (amhej)\n- Hellhound familiar Hellhound pouch recommended, but Ripper Demon Ripper Demon pouch may be used at lower (<3500%) enrages [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500 enrageband3000]\n- Apply Darkness + Disruption Shield (disrupt) at Wars\n- Master Magic Cape stored for longer debuff duration",
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Ripper Demon may be used below 3500% enrage, though Hellhound is recommended.",
+      "tags": [
+        "enrage-conditional"
+      ],
+      "answerable": true,
+      "seconds": 2.69
+    },
+    {
+      "id": "mr-melee-clear-finish",
+      "question": "After Berserk ends during a minion clear on Melee/Ranged, what do I finish with?",
+      "answer": "You should swap to ranged and finish the clear using Death Spore Arrows Greater Ricochet (grico), then Greater Death's Swiftness (gdeathsswift), Imbue Shadows, and Decimation Essence of Finality special attack (eofspec).",
+      "contexts": [
+        "- Start with Piercing Shot → Greater Ricochet (grico) → Piercing Shot if Greater Ricochet (grico) was not used during Berserk  \n- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + Decimation Essence of Finality special attack (eofspec) → Deadshot if available → spam Gloomfire bow Essence of Finality special attack (eofspec)\n- If Imbue Shadows runs out, swap to melee early and Meteor Strike + Berserk to do the melee clear instead",
+        "- After Meteor Strike + Berserk ends, swap to ranged to finish the clear with Death Spore Arrows Greater Ricochet (grico) → Greater Death's Swiftness (gdeathsswift) → Imbue Shadows → Decimation Essence of Finality special attack (eofspec)\n- Arms: Improvise with Overpower / Chaos Roar + Hurricane (cane) / Varanus's Mercy Essence of Finality special attack (eofspec) / Assault / Punish",
+        "- After Meteor Strike + Berserk ends, swap to magic to finish the clear with Tsunami / Greater Chain (gchain) / Runic Charge + Dragon Breath (dbreath)\n- Arms: Improvise with Overpower / Chaos Roar + Hurricane (cane) / Varanus's Mercy Essence of Finality special attack (eofspec) / Assault / Punish"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Swap to ranged and finish with Death Spore Arrows, Greater Ricochet, Greater Death's Swiftness, Imbue Shadows, then Decimation EoF special.",
+      "tags": [
+        "sequence"
+      ],
+      "answerable": true,
+      "seconds": 2.68
+    },
+    {
+      "id": "mr-video",
+      "question": "Is there an example kill video for the Melee/Ranged hybrid?",
+      "answer": "Yes, there are two example kill videos for Arch-Glacor in the Hybrid Melee/Ranged guide: https://youtu.be/pRDGPkOARhc and https://youtu.be/SD3Q0SUPePY.",
+      "contexts": [
+        "## __Example Kills__\n- Example kill video, Arch-Glacor: https://youtu.be/pRDGPkOARhc\n- Example kill video, Arch-Glacor: https://youtu.be/SD3Q0SUPePY",
+        "## __Example Kills__\n- Example kill video, Arch-Glacor: https://www.youtube.com/watch?v=DPvi27nJZxI\n- Example kill video, Arch-Glacor: https://www.youtube.com/watch?v=IN2n-txSPD8",
+        "## __Example Kills__\n- Example kill video, 3000% GM timer__ (5:25): https://youtu.be/B-5v0Qb4XUE?si=I57326aSERYg8Cub\n- Example kill video, 10:57 4000%: https://youtu.be/ETA6vtiuOvA?si=ZYkp-da10MvEuS0d\nContent and guide formatting provided and maintained by:"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Yes: https://youtu.be/pRDGPkOARhc",
+      "tags": [
+        "link"
+      ],
+      "answerable": true,
+      "seconds": 2.13
+    },
+    {
+      "id": "hy-enrage-range",
+      "question": "What enrage does the hybrid Arch-Glacor guide target?",
+      "answer": "The Hybrid Melee/Ranged and Hybrid Melee/Mage guides for Arch-Glacor target an enrage of **3000-4000%**.",
+      "contexts": [
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "3000-4000% enrage.",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 1.82
+    },
+    {
+      "id": "hy-keep-rotation-rolling",
+      "question": "Should I stop my hybrid rotation when a mechanic starts?",
+      "answer": "No, you should keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably.",
+      "contexts": [
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably.",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably.",
+        "### General Rotations & tips\n**- Starting the encounter:**  \n- Darkness (outside) → Invoke Death → Conjure Undead Army → Life Transfer → Command Vengeful Ghost → Command Skeleton Warrior → Bloat  \n- Rotations for Arch-Glacor are not strict, as per the random nature of the boss's mechanics. **Aim to upkeep** Bloat & Conjure Undead Army as much as possible."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "No. Keep the hybrid rotation rolling even mid-mechanic, swapping styles as needed.",
+      "tags": [
+        "negative-fact",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 2.79
+    },
+    {
+      "id": "hy-arms-buffs-ending",
+      "question": "What should I do if my buffs are about to run out as the Exposed Core begins?",
+      "answer": "If your buffs are close to running out while the ice is creeping in, just swap styles early to make sure you're not still building as the mechanic begins.",
+      "contexts": [
+        "For **Arms (Exposed Core)** specifically, if your buffs are close to running out while the ice is creeping in, just swap styles early to make sure you're not still building as the mechanic begins.",
+        "For **Arms (Exposed Core)** specifically, if your buffs are close to running out while the ice is creeping in, just swap styles early to make sure you're not still building as the mechanic begins.",
+        "- Ensure that some Necrosis Stacks Necrosis stack (4+) and Residual Souls Residual Soul (2+) are held for the Exposed Core.  \n- It is best to start the fight with Bloat , as it is a low adren investment that has no cooldown, and has high use priority during the fight. There is a 2/5 chance you get a mechanic (minions/exposed core) that will nullify your first attacks.\n- Both tank gear and TFN should be bound for swapping.  \n- **TFN gear should be worn in the following conditions**;"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Swap styles early so you are not still building as the mechanic begins.",
+      "tags": [
+        "conditional",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 1.64
+    },
+    {
+      "id": "hy-opener-improvise",
+      "question": "What do I improvise with at the end of the hybrid opener?",
+      "answer": "You can improvise with Assault, Varanus's Mercy Essence of Finality special attack (eofspec), Overpower, or Hurricane (cane).",
+      "contexts": [
+        "### Opener  \n- Arch Glacor spawns Berserk + Adrenaline Renewal → tc + Greater Barge (gbarge) → Meteor Strike → Ek-ZekKil (ezk) special attack → Greater Flurry (gflurry) → Rend → apply Pulverise + Enfeeble → Overpower → improvise with Assault / Varanus's Mercy Essence of Finality special attack (eofspec) / Overpower / Hurricane (cane)  \n- **First Mechanic:**",
+        "### Opener  \n- Arch Glacor spawns Berserk + Adrenaline Renewal → tc + Greater Barge (gbarge) → Meteor Strike → Ek-ZekKil (ezk) special attack → Greater Flurry (gflurry) → Rend → apply Pulverise + Enfeeble → Overpower → improvise with Assault / Varanus's Mercy Essence of Finality special attack (eofspec) / Overpower \\ Hurricane (cane)  \n- **First Mechanic:**",
+        "- After Meteor Strike + Berserk ends, swap to magic to finish the clear with Tsunami / Greater Chain (gchain) / Runic Charge + Dragon Breath (dbreath)\n- Arms: Improvise with Overpower / Chaos Roar + Hurricane (cane) / Varanus's Mercy Essence of Finality special attack (eofspec) / Assault / Punish"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Assault, Varanus's Mercy EoF special, Overpower, or Cleave.",
+      "tags": [
+        "sequence",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 1.72
+    },
+    {
+      "id": "hy-first-mech-debuffs",
+      "question": "What should I do before starting a mechanic rotation as a hybrid?",
+      "answer": "Before starting a mechanic rotation as a hybrid, you should aim to keep your buffs up (put them up without dying) even if mechanics like Pillars are currently happening, and ensure you spend minimal time outside of buffs for unpredictable mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then.",
+      "contexts": [
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably.",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably.",
+        "### General Rotations & tips\n**- Starting the encounter:**  \n- Darkness (outside) → Invoke Death → Conjure Undead Army → Life Transfer → Command Vengeful Ghost → Command Skeleton Warrior → Bloat  \n- Rotations for Arch-Glacor are not strict, as per the random nature of the boss's mechanics. **Aim to upkeep** Bloat & Conjure Undead Army as much as possible."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Finish applying the necessary debuffs first.",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 2.52
+    },
+    {
+      "id": "hy-cannon-opener",
+      "question": "What do I need for the frost cannon during the first mechanic as a hybrid?",
+      "answer": "You should prioritize defensives in this order: Anticipation → Deflect Magic, Powerburst of Vitality, or Debilitate/Reflect. You may also use Resonance if needed and Devotion on Exposed Core only if it goes too long. For Glacyte Minions, use Reflect or Debilitate.\n\n**Frost Cannon**: Anticipation (anti) → Deflect Magic (DeflectMage) Powerburst of Vitality / Debilitate (debil) / Reflect (only one is needed)\n- Resonance (res) a hit if needed\n- **Exposed Core** (Arms): Devotion (devo) if it goes too long, rarely needed\n- **Glacyte Minions**: Reflect / Debilitate (debil)",
+      "contexts": [
+        "### Defensive & utility usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Vengeance (veng) + Soul Split + Reflect → Reprisal + Powerburst of Vitality **(In TANK GEAR & max HP)**\n- **Always wear tank gear** for this mechanic.",
+        "### Defensive Usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Deflect Magic (DeflectMage) Powerburst of Vitality / Debilitate (debil) / Reflect (only one is needed)\n- Resonance (res) a hit if needed\n- **Exposed Core** (Arms): Devotion (devo) if it goes too long, rarely needed\n- **Glacyte Minions**: Reflect / Debilitate (debil)",
+        "### Defensive Usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Deflect Magic (DeflectMage) Powerburst of Vitality / Debilitate (debil) / Reflect (only one is needed)\n- Resonance (res) a hit if needed\n- **Exposed Core** (Arms): Devotion (devo) if it goes too long, rarely needed\n- **Glacyte Minions**: Reflect / Debilitate (debil)"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Pulverise and Enfeeble applied, plus Anticipation and Powerburst of Vitality.",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 8.15
+    },
+    {
+      "id": "hy-ezk-melee",
+      "question": "Why should I keep ezk equipped while meleeing?",
+      "answer": "You should keep Ek-ZekKil (ezk) equipped as often as possible while meleeing to gain Flamebound Rival damage reduction.",
+      "contexts": [
+        "### Fight Checklist  \n- Keep Pulverise + Enfeeble applied while Berserk\n- Have Ek-ZekKil (ezk) equipped as often as possible while meleeing for Flamebound Rival damage reduction\n- Keep Smoke Cloud applied while Greater Sunshine (gsunshine)\n- Don't overspend Bloodlust stacks before Glacyte Minions during Berserk, needed for Hurricane (cane) cooldown refund\n- Regularly use Prism of Restoration to sustain Hellhound pouch",
+        "### Fight Checklist  \n- Keep Pulverise + Enfeeble applied while Berserk\n- Have Ek-ZekKil (ezk) equipped as often as possible while meleeing for Flamebound Rival damage reduction\n- Don't overspend Bloodlust stacks before Glacyte Minions during Berserk, needed for Hurricane (cane) cooldown refund\n- Regularly use Prism of Restoration to sustain Hellhound pouch",
+        "- Optional Dragon battleaxe (dba) special attack usage at Wars\n- Optional Nodon spike harness for extra melee damage, otherwise wear Zemouregal's Nexus"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "For the Flamebound Rival damage reduction.",
+      "tags": [
+        "why",
+        "jargon",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 1.77
+    },
+    {
+      "id": "hy-bloodlust-stacks",
+      "question": "How many Bloodlust stacks do I need for a full cooldown reset on cane?",
+      "answer": "You need 4 Bloodlust stacks for a full cooldown reset on the Hurricane (cane).",
+      "contexts": [
+        "- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + equip Tumeken's Light + Chaos Roar / Adaptive Strike → Hurricane (cane) → Hurricane (cane) → Rend → Hurricane (cane) → Hurricane (cane)\n- Watch Bloodlust stacks, need 4 for full cooldown reset on Hurricane (cane)\n- Reflect / Debilitate (debil) is used because the Flamebound Rival damage reduction is lost while Tumeken's Light is equipped",
+        "- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + equip Tumeken's Light + Chaos Roar / Adaptive Strike → Hurricane (cane) → Hurricane (cane) → Rend → Hurricane (cane) → Hurricane (cane)\n- Watch Bloodlust stacks, need 4 for full cooldown reset on Hurricane (cane)\n- Reflect / Debilitate (debil) is used because the Flamebound Rival damage reduction is lost while Tumeken's Light is equipped",
+        "### Fight Checklist  \n- Keep Pulverise + Enfeeble applied while Berserk\n- Have Ek-ZekKil (ezk) equipped as often as possible while meleeing for Flamebound Rival damage reduction\n- Don't overspend Bloodlust stacks before Glacyte Minions during Berserk, needed for Hurricane (cane) cooldown refund\n- Regularly use Prism of Restoration to sustain Hellhound pouch"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "4 stacks.",
+      "tags": [
+        "numeric",
+        "jargon",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 1.47
+    },
+    {
+      "id": "hy-tumekens-reflect",
+      "question": "Why is Reflect or Debilitate used while Tumeken's Light is equipped?",
+      "answer": "Reflect / Debilitate (debil) is used because the Flamebound Rival damage reduction is lost while Tumeken's Light is equipped.",
+      "contexts": [
+        "- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + equip Tumeken's Light + Chaos Roar / Adaptive Strike → Hurricane (cane) → Hurricane (cane) → Rend → Hurricane (cane) → Hurricane (cane)\n- Watch Bloodlust stacks, need 4 for full cooldown reset on Hurricane (cane)\n- Reflect / Debilitate (debil) is used because the Flamebound Rival damage reduction is lost while Tumeken's Light is equipped",
+        "- **Mechanics:**\n- Glacyte Minions: Reflect / Debilitate (debil) → target bolstered + equip Tumeken's Light + Chaos Roar / Adaptive Strike → Hurricane (cane) → Hurricane (cane) → Rend → Hurricane (cane) → Hurricane (cane)\n- Watch Bloodlust stacks, need 4 for full cooldown reset on Hurricane (cane)\n- Reflect / Debilitate (debil) is used because the Flamebound Rival damage reduction is lost while Tumeken's Light is equipped",
+        "- **First Mechanic:**\n- Glacyte Minions: finish applying necessary debuffs first, then Tumeken's Light special attack → Chaos Roar → Hurricane (cane) → Hurricane (cane) (until cleared)\n- Arms: finish applying necessary debuffs first, then Overpower → Chaos Roar → Hurricane (cane) → Varanus's Mercy Essence of Finality special attack (eofspec) → Punish (until cleared)\n- Cannon: make sure Pulverise + Enfeeble is applied + Anticipation (anti) + Powerburst of Vitality"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Because the Flamebound Rival damage reduction is lost while Tumeken's Light is equipped.",
+      "tags": [
+        "why",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 1.69
+    },
+    {
+      "id": "hy-adaptive-strike-stall",
+      "question": "Why do I stall with Adaptive Strike in the melee phase?",
+      "answer": "You stall with Adaptive Strike to divert or stall it, specifically only for Adren. This is done during the transition from Meteor Strike before Berserk and Greater Barge (gbarge). The instruction explicitly states \"only for adren, don't attack\" while stalling this ability.",
+      "contexts": [
+        "### Melee Phase  \n- Meteor Strike → Divert / stall Adaptive Strike (only for adren, don't attack) → Berserk → Greater Barge (gbarge) → Greater Flurry (gflurry) + switch back to Ek-ZekKil (ezk) as quickly as possible → make sure Pulverise + Enfeeble is applied → improvise with Overpower / Chaos Roar + Ek-ZekKil (ezk) special attack / Varanus's Mercy Essence of Finality special attack (eofspec) / Assault + don't overspend Bloodlust stacks  \n- **Mechanics:**",
+        "### Melee Phase  \n- Meteor Strike → Divert / stall Adaptive Strike (only for adren, don't attack) → Berserk → Greater Barge (gbarge) → Greater Flurry (gflurry) + switch back to Ek-ZekKil (ezk) as quickly as possible → make sure Pulverise + Enfeeble is applied → improvise with Overpower / Chaos Roar + Ek-ZekKil (ezk) special attack / Varanus's Mercy Essence of Finality special attack (eofspec) / Assault → Death Spore Arrows Greater Ricochet (grico) + don't overspend Bloodlust stacks",
+        "- Make sure to Caroming 4 Greater Chain (gchain)\n- If close to end of Greater Sunshine (gsunshine), swap to melee early and Meteor Strike + Berserk to do the melee clear instead\n- Arms: Asphyxiate (asphyx) → Runic Charge + Greater Concentrated Blast (gconc) → Omnipower (omni) → Smoke Tendrils → Greater Concentrated Blast (gconc) → Wild Magic (wm) → Devotion (devo) + improvise"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Only for adrenaline - do not attack with it.",
+      "tags": [
+        "why",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 5.38
+    },
+    {
+      "id": "hy-frost-cannon-defensives",
+      "question": "What defensives should I use for the frost cannon as a hybrid?",
+      "answer": "For Frost Cannon at higher enrage levels, you should prioritize defenses in this order:\n\n1.  Anticipation (anti)\n2.  Deflect Magic (DeflectMage), Vengeance + Soul Split + Reflect, or Powerburst of Vitality / Debilitate / Reflect (only one is needed). Note that if using the second option set, it requires **Tank Gear** and max HP.\n3.  Resonance (res) a hit if needed\n\nAdditionally:\n*   For Exposed Core (Arms): Use Devotion (devo) only if it goes too long (rarely needed).\n*   For Glacyte Minions: Use Reflect or Debilitate (debil).",
+      "contexts": [
+        "### Defensive Usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Deflect Magic (DeflectMage) Powerburst of Vitality / Debilitate (debil) / Reflect (only one is needed)\n- Resonance (res) a hit if needed\n- **Exposed Core** (Arms): Devotion (devo) if it goes too long, rarely needed\n- **Glacyte Minions**: Reflect / Debilitate (debil)",
+        "### Defensive & utility usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Vengeance (veng) + Soul Split + Reflect → Reprisal + Powerburst of Vitality **(In TANK GEAR & max HP)**\n- **Always wear tank gear** for this mechanic.",
+        "### Defensive Usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Deflect Magic (DeflectMage) Powerburst of Vitality / Debilitate (debil) / Reflect (only one is needed)\n- Resonance (res) a hit if needed\n- **Exposed Core** (Arms): Devotion (devo) if it goes too long, rarely needed\n- **Glacyte Minions**: Reflect / Debilitate (debil)"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Anticipation, then Deflect Magic with Powerburst of Vitality, Debilitate or Reflect - only one is needed.",
+      "tags": [
+        "sequence",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 10.78
+    },
+    {
+      "id": "hy-arms-devotion",
+      "question": "Do I need Devotion for the Exposed Core as a hybrid?",
+      "answer": "Yes, if using Arms rotation skills, you should use Devotion (devo) on **Exposed Core** only \"if it goes too long,\" which is noted as rarely needed. For defensive usage generally at higher enrage, prioritize Frost Cannon and other defensives first; Exposed Core with Devotion comes after those options are considered or if the mechanic persists.\n\nIf you need to Barricade (cade), use Divert and flick to Soul Split for 1 tick to get to 100% adrenaline before using Defensives like Devotion as needed.",
+      "contexts": [
+        "- Use Limitless Sigil / Adrenaline Renewal where required depending on adrenaline in order to use Devotion (devo) .\n- If you need to Barricade (cade) , use Divert and flick to Soul Split for 1 tick to get to 100% adrenaline.\n- ~15s into exposed core, you can swap to tank gear to benefit from 3pc cryptbloom's magic damage reduction% passive.  \n**__Example Arms rotation:__**\n- Closely follow the rotation below in priority of cooldowns and stacks available.",
+        "### Defensive Usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Deflect Magic (DeflectMage) Powerburst of Vitality / Debilitate (debil) / Reflect (only one is needed)\n- Resonance (res) a hit if needed\n- **Exposed Core** (Arms): Devotion (devo) if it goes too long, rarely needed\n- **Glacyte Minions**: Reflect / Debilitate (debil)",
+        "- **Always wear tank gear** for this mechanic.\n- Alternatively; Anticipation (anti) → Powerburst of Vitality / Shield Dome / Disruption Shield (disrupt) / Debilitate (debil) / Reflect / Resonance (res) (hit 3, don't need to combo with defensives) / spam food + be overhealed with brew on first hit. Use of any one of these will ensure you survive the mechanic.\n- **Exposed Core** (arms): Devotion (devo) → Divert → Barricade (cade) as needed"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "Only if it goes too long; it is rarely needed.",
+      "tags": [
+        "negative-fact",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 8.0
+    },
+    {
+      "id": "hy-pillars-defensives",
+      "question": "What should I use during Pillars of Ice as a hybrid?",
+      "answer": "You should put up your buffs without dying, even if the mechanic is currently happening. This ensures you spend minimal time outside of buffs for unpredictable mechanics like Pillars. If your buffs run out while clearing Glacyte Minions or Arms (Exposed Core), simply swap styles right then to ensure you are not still building as the mechanic begins.",
+      "contexts": [
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably.",
+        "For **Arms (Exposed Core)** specifically, if your buffs are close to running out while the ice is creeping in, just swap styles early to make sure you're not still building as the mechanic begins.",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Preparation or Freedom, for adrenaline.",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 5.9
+    },
+    {
+      "id": "hy-flurry-reflect",
+      "question": "Is Reflect worth using during flurry at high enrage as a hybrid?",
+      "answer": "Yes, according to the Hybrid Melee/Ranged and Hybrid Melee/Magic guides provided, \"Reflect does decent damage at higher enrage\" when used with Flurry. The full URL for more information on 0ticking offstyle special attacks is: `!0tick`.",
+      "contexts": [
+        "- **Flurry**: Disruption Shield (disrupt) / Resonance (res) / Reflect / Debilitate (debil) (Reflect does decent damage at higher enrage)\n- **Pillars of Ice**: Preparation (prep) / Freedom for adrenaline",
+        "Roar of Awakening + Ode to Deceit are optionally brought to 0t spec on arms at 3500%+ enrage. Offstyle soulfire speccing arms at high enrage greatly improves consistency, however isn't necessary. This guide isn't structured with their use in consideration. Use `!0tick` in  for more information on 0ticking offstyle special attacks with necromancy. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]",
+        "- **Flurry**: Disruption Shield (disrupt) / Resonance (res) / Reflect / Debilitate (debil) (Reflect does decent damage at higher enrage)\n- **Pillars of Ice**: Preparation (prep) / Freedom for adrenaline"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt"
+      ],
+      "expected_answer": "Yes, Reflect does decent damage at higher enrage.",
+      "tags": [
+        "why",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 4.27
+    },
+    {
+      "id": "hy-dba-wars",
+      "question": "When should I use the dba special attack as a hybrid?",
+      "answer": "You may optionally use the Dragon battleaxe (dba) special attack at Wars, according to both Hybrid Melee/Ranged and Hybrid Melee/Magic guides. No specific timing within mechanics or rotations is provided in the context for when exactly to activate it beyond this optional usage note.\n\nhttps://runescape.fandom.com/wiki/Hybrid_Melee/Ranged_guide",
+      "contexts": [
+        "- Optional Dragon battleaxe (dba) special attack usage at Wars",
+        "- Optional Dragon battleaxe (dba) special attack usage at Wars\n- Optional Nodon spike harness for extra melee damage, otherwise wear Zemouregal's Nexus",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Optionally at Wars.",
+      "tags": [
+        "jargon",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 128.79
+    },
+    {
+      "id": "hy-magic-cape",
+      "question": "Why is the Master Magic Cape stored as a hybrid?",
+      "answer": "The Master Magic Cape is stored in Hybrid Melee/Ranged presets because it provides longer debuff duration, which helps ensure players spend minimal time outside of buffs during unpredictable mechanics like Glacyte Minions or Pillars. The full URL for the relevant guide section is not provided in the context; however, based on standard RuneScape 3 resources (e.g., Jagex Wiki), a typical link might be: https://runescape.wiki/w/Hybrid_Melee/Ranged#Preset_Notes",
+      "contexts": [
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably.",
+        "### Preset Notes  \n- Powder of Penance or bring a form of prayer restore + Powder of Protection if using Am-hej (amhej)\n- Hellhound familiar Hellhound pouch recommended, but Ripper Demon Ripper Demon pouch may be used at lower (<3500%) enrages [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500 enrageband3000]\n- Apply Darkness + Disruption Shield (disrupt) at Wars\n- Master Magic Cape stored for longer debuff duration",
+        "## __General Rotations__\nAs a general rule, it is better to keep your hybrid rotation rolling even in the middle of mechanics. If your buffs run out while clearing Glacyte Minions, simply swap styles right then. If Pillars are currently happening, put up your buffs (without dying) anyway. This helps to ensure that you're spending minimal time outside of buffs for mechanics that can happen somewhat unpredictably."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "For longer debuff duration.",
+      "tags": [
+        "why",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 7.01
+    },
+    {
+      "id": "hy-prism-restoration",
+      "question": "How do I sustain the Hellhound familiar?",
+      "answer": "Regularly use Prism of Restoration.",
+      "contexts": [
+        "### Preset Notes  \n- Powder of Penance or bring a form of prayer restore + Powder of Protection if using Am-hej (amhej)\n- Hellhound familiar Hellhound pouch recommended, but Ripper Demon Ripper Demon pouch may be used at lower (<3500%) enrages [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500 enrageband3000]\n- Apply Darkness + Disruption Shield (disrupt) at Wars\n- Master Magic Cape stored for longer debuff duration",
+        "### Preset Notes  \n- Powder of Penance or bring a form of prayer restore + Powder of Protection if using Am-hej (amhej)\n- Hellhound familiar Hellhound pouch recommended, but Kal'gerion Demon Kal'gerion Demon pouch may be used at lower (<3500%) enrages [enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000 enrageband2500 enrageband3000]\n- Apply Darkness + Disruption Shield (disrupt) at Wars\n- Master Magic Cape stored for longer debuff duration",
+        "### Fight Checklist  \n- Keep Pulverise + Enfeeble applied while Berserk\n- Have Ek-ZekKil (ezk) equipped as often as possible while meleeing for Flamebound Rival damage reduction\n- Don't overspend Bloodlust stacks before Glacyte Minions during Berserk, needed for Hurricane (cane) cooldown refund\n- Regularly use Prism of Restoration to sustain Hellhound pouch"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "Regularly use Prism of Restoration.",
+      "tags": [
+        "lookup",
+        "shared-text"
+      ],
+      "answerable": true,
+      "seconds": 2.02
+    },
+    {
+      "id": "unanswerable-drop-rates",
+      "question": "What are the drop rates at Arch-Glacor?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 2.45
+    },
+    {
+      "id": "unanswerable-unlock",
+      "question": "How do I unlock Arch-Glacor?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "### Opener  \n- Arch Glacor spawns Berserk + Adrenaline Renewal → tc + Greater Barge (gbarge) → Meteor Strike → Ek-ZekKil (ezk) special attack → Greater Flurry (gflurry) → Rend → apply Pulverise + Enfeeble → Overpower → improvise with Assault / Varanus's Mercy Essence of Finality special attack (eofspec) / Overpower / Hurricane (cane)  \n- **First Mechanic:**",
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 2.35
+    },
+    {
+      "id": "unanswerable-normal-mode",
+      "question": "What is the strategy for normal mode Arch-Glacor?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "This guide assumes strong underlying knowledge of all information presented in .  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.  \nA large portion of the preset below is built on sustaining high enrage kill streaks. Read the notes in the preset link if you wish to substitute some supplies for more food."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 2.24
+    },
+    {
+      "id": "unanswerable-duo",
+      "question": "How do I duo Arch-Glacor?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]",
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 2.45
+    },
+    {
+      "id": "unanswerable-preset-cost",
+      "question": "How much does the Melee/Magic preset cost?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "## __Presets and Relics__\n- [Melee / Magic preset](https://presets.pvme.io?id=d094d086-73a3-4f45-9bd9-1fbadc4758af) Melee Magic",
+        "## __Presets and Relics__\n- [Melee / Ranged preset](https://presets.pvme.io?id=ab514507-02c9-4919-8805-0a0d6e20203a) Melee Ranged",
+        "## __Presets and Relics__\n- [Necromancy preset](https://presets.pvme.io/?id=ecA3h6GIy9XZPdeXBjwt) Necromancy  \n**Buffs & checklist**\n- Powder of Penance - Optional, replaces blessed flask at increased cost\n- weapon poison Weapon poison active\n- Darkness active\n- Limitless Sigil unlocked\n- Bonfire + thermal spa HP boosts thermal spa flask are active\n- Kwuarm incense sticks Kwuarm incense at 4 stacks"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 2.28
+    },
+    {
+      "id": "unanswerable-achievements",
+      "question": "What are the Arch-Glacor combat achievements?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "### Opener  \n- Arch Glacor spawns Berserk + Adrenaline Renewal → tc + Greater Barge (gbarge) → Meteor Strike → Ek-ZekKil (ezk) special attack → Greater Flurry (gflurry) → Rend → apply Pulverise + Enfeeble → Overpower → improvise with Assault / Varanus's Mercy Essence of Finality special attack (eofspec) / Overpower / Hurricane (cane)  \n- **First Mechanic:**",
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 2.4
+    },
+    {
+      "id": "unanswerable-enrage-mechanic",
+      "question": "How does the enrage mechanic work, and how do I raise or reset it?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "### Defensive & utility usage\n- At higher enrage, you will want to prioritise defensives as follows,\n- **Frost Cannon**: Anticipation (anti) → Vengeance (veng) + Soul Split + Reflect → Reprisal + Powerburst of Vitality **(In TANK GEAR & max HP)**\n- **Always wear tank gear** for this mechanic.",
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "- Living Death is best used during the flurry mechanic. This mechanic gives you a long, uninterrupted window in which you can deal damage to Arch-Glacor. It can situationally be used to reset Death Skulls cooldown in **anticipation of an upcoming exposed core mechanic**. Living Death shouldn't be strategically reserved for arms, as the time it takes to clear the mechanic doesn't largely change with or without the ult active."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 2.29
+    },
+    {
+      "id": "unanswerable-pure-ranged",
+      "question": "What is the best pure Ranged setup for Arch-Glacor?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "This guide assumes strong underlying knowledge of all information presented in .  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.  \nA large portion of the preset below is built on sustaining high enrage kill streaks. Read the notes in the preset link if you wish to substitute some supplies for more food."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_melee_ranged.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 2.34
+    },
+    {
+      "id": "unanswerable-6000-enrage",
+      "question": "What should I do at 6000% enrage?",
+      "answer": "I don't have enough information to answer that. The provided context only covers strategies for enrages up to 4000%, specifically mentioning swapping to a Ripper Demon pouch below 2500%. No instructions are given for 6000% enrage.",
+      "contexts": [
+        "- At 3500%+ enrage, **always** reserve splitsoul Split Soul for the exposed core. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n- Death Guard Essence of Finality special attack (eofspec) , Touch of Death and Divert , are all high value abilities with medium-length cooldowns. **Put these abilities on cooldown before the pillars of ice mechanic** blocks your line of sight.",
+        "Roar of Awakening + Ode to Deceit are optionally brought to 0t spec on arms at 3500%+ enrage. Offstyle soulfire speccing arms at high enrage greatly improves consistency, however isn't necessary. This guide isn't structured with their use in consideration. Use `!0tick` in  for more information on 0ticking offstyle special attacks with necromancy. [enrageband3500 enrageband4000 enrageband4500 enrageband5000]",
+        "# Arch-Glacor: Necromancy  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **2500%-4000%**. However, all information is applicable to lower enrages. Swap to ripper demon Ripper Demon pouch **below 2500%**. [enrageband2500 enrageband3000 enrageband3500 enrageband4000 enrageband0 enrageband500 enrageband1000 enrageband1500 enrageband2000]"
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_necromancy.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 5.09
+    },
+    {
+      "id": "unanswerable-slayer-master",
+      "question": "Which Slayer master assigns Arch-Glacor?",
+      "answer": "I don't have enough information to answer that.",
+      "contexts": [
+        "This guide assumes strong underlying knowledge of all information presented in .  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.  \nA large portion of the preset below is built on sustaining high enrage kill streaks. Read the notes in the preset link if you wish to substitute some supplies for more food.",
+        "# Arch-Glacor: Hybrid Melee/Mage (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode.",
+        "# Arch-Glacor: Hybrid Melee/Ranged (3000%+ enrage) [enrageband3000 enrageband3500 enrageband4000 enrageband4500 enrageband5000]  \n## __Introduction__\n*Note: a **Table of Contents** can be found in the pins.*  \nThis guide is aimed at players looking to kill Arch-Glacor at **3000-4000%** Enrage and assumes strong underlying knowledge of all information presented in . [enrageband3000 enrageband3500 enrageband4000]  \nThe Arch-Glacor is **not** affected by Slayer tasks in hard mode."
+      ],
+      "context_sources": [
+        "arch_glacor_high_enrage_necromancy.txt",
+        "arch_glacor_high_enrage_melee_magic.txt",
+        "arch_glacor_high_enrage_melee_ranged.txt"
+      ],
+      "expected_answer": "I don't have enough information to answer that.",
+      "tags": [
+        "unanswerable"
+      ],
+      "answerable": false,
+      "seconds": 2.27
+    }
+  ]
+}
