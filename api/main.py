@@ -9,6 +9,7 @@ from rag.config import settings
 _state =  {}
 
 
+@asynccontextmanager
 async def lifespan(app: FastAPI):
     from rag.pipeline import build_rag_chain
     from rag.search import build_retriever, get_client
