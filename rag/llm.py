@@ -25,6 +25,7 @@ def get_chat_model(model: str | None = None, temperature: float = 0.0):
         # Cap output so a rambling answer cannot run indefinitely. Generous
         # enough for a full rotation listing.
         "num_predict": settings.max_output_tokens,
+        "base_url": settings.ollama_base_url
     }
 
     try:

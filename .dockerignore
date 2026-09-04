@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+data/qdrant_db/
+qdrant_storage/
+mlruns/
+mlflow.db
+.pytest_cache/
+.ruff_cache/
+.env

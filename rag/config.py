@@ -32,13 +32,16 @@ class Settings(BaseSettings):
     # Models
     embedding_model: str = "all-MiniLM-L6-v2"
     llm_model: str = "qwen3.5:9b"
+
     # Judge for RAGAS. Same model as the answerer for now: it fits 8GB VRAM in
     # one load, so no swapping. Caveat: a model grading its own output shows
     # self-preference bias, so absolute faithfulness is flattering. Separate
     # setting so an independent judge is a one-line change.
     judge_model: str = "qwen3.5:9b"
+
     # Judging must be reproducible - a regression should be a real regression
     judge_temperature: float = 0.0
+
     # Cap generated length. Qwen3 reasoning is disabled in rag/llm.py;
     # without both, answers came back empty or truncated mid-sentence.
     max_output_tokens: int = 512
@@ -69,6 +72,8 @@ class Settings(BaseSettings):
 
     # How many candidates each retriever contributes before RRF fusion
     hybrid_prefetch: int = 40
+
+    ollama_base_url: str = "http://localhost:11434"
 
 
 settings = Settings()

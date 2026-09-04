@@ -23,6 +23,7 @@ dependencies = [
     "requests>=2.34.2",
     "sentence-transformers>=5.6.1",
     "streamlit>=1.63.0",
+    "torch>=2.0",
     "uvicorn[standard]>=0.52.1",
 ]
 
@@ -48,3 +49,11 @@ select = ["E", "F", "I", "UP", "B", "SIM"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }

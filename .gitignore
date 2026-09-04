@@ -22,6 +22,7 @@ data/processed/
 
 # Vector store / data artifacts (track with DVC, not git)
 qdrant_db/
+qdrant_storage/
 data/qdrant_db/
 *.pkl
 *.sqlite
